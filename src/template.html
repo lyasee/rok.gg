@@ -11,6 +11,18 @@
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" type="image/png" href="favicon2.png" />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90392326-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-90392326-4');
+    </script>
+
     <!-- Sapper generates a <style> tag containing critical CSS
       for the current page. CSS for the rest of the app is
       lazily loaded when it precaches secondary pages -->
