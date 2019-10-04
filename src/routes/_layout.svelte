@@ -1,7 +1,17 @@
 <script>
-  import Nav from "../components/Nav.svelte";
+  import Nav from '../components/Nav.svelte';
 
   export let segment;
+
+  import {onMount} from 'svelte';
+  import {stores} from '@sapper/app';
+  const {page} = stores();
+
+  onMount(() => {
+    page.subscribe(({path, params, query}) => {
+      gtag('config', 'UA-90392326-4', {page_path: path});
+    });
+  });
 </script>
 
 <style>
