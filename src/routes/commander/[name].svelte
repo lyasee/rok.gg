@@ -1,12 +1,12 @@
 <script context="module">
-  export async function preload({ params, query }) {
+  export async function preload({params, query}) {
     // the `slug` parameter is available because
     // this file is called [slug].svelte
     const res = await this.fetch(`commander/${params.name}.json`);
     const data = await res.json();
 
     if (res.status === 200) {
-      return { commander: data };
+      return {commander: data};
     } else {
       this.error(res.status, data.message);
     }
@@ -14,9 +14,9 @@
 </script>
 
 <script>
-  import { getNationImage, getSpecificityImage } from "./data/utils";
-  import Specialty from "../../components/commanders/Specialty.svelte";
-  import Title from "../../components/commanders/title.svelte";
+  import {getNationImage, getSpecificityImage} from './data/utils';
+  import Specialty from '../../components/commanders/Specialty.svelte';
+  import Title from '../../components/commanders/Title.svelte';
 
   export let commander;
 </script>
@@ -105,15 +105,9 @@
         <span style="font-size: 28px;">{commander.name}</span>
       </div>
       <div style="display: flex;">
-        <Specialty
-          image={getSpecificityImage(commander.specialties.red)}
-          text={commander.specialties.red} />
-        <Specialty
-          image={getSpecificityImage(commander.specialties.yellow)}
-          text={commander.specialties.yellow} />
-        <Specialty
-          image={getSpecificityImage(commander.specialties.blue)}
-          text={commander.specialties.blue} />
+        <Specialty image={getSpecificityImage(commander.specialties.red)} text={commander.specialties.red} />
+        <Specialty image={getSpecificityImage(commander.specialties.yellow)} text={commander.specialties.yellow} />
+        <Specialty image={getSpecificityImage(commander.specialties.blue)} text={commander.specialties.blue} />
       </div>
     </div>
   </div>
@@ -209,9 +203,7 @@
           <div style="padding: 8px 0; widht: 100%">
             <span>{pair.rank}등</span>
             <span>{' - '}</span>
-            <span style="color: #f06060; font-weight: bold;">
-              {pair.primary}
-            </span>
+            <span style="color: #f06060; font-weight: bold;">{pair.primary}</span>
             <span>{' - '}</span>
             <span>{pair.secondary}</span>
           </div>
@@ -226,9 +218,7 @@
             <span>{' - '}</span>
             <span>{pair.primary}</span>
             <span>{' - '}</span>
-            <span style="color: #f06060; font-weight: bold;">
-              {pair.secondary}
-            </span>
+            <span style="color: #f06060; font-weight: bold;">{pair.secondary}</span>
           </div>
         {/each}
       </div>
