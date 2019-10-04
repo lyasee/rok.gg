@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#333333" />
+
+    %sapper.base%
+
+    <link rel="stylesheet" href="global.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/png" href="favicon2.png" />
+
+    <!-- Sapper generates a <style> tag containing critical CSS
+      for the current page. CSS for the rest of the app is
+      lazily loaded when it precaches secondary pages -->
+    %sapper.styles%
+
+    <!-- This contains the contents of the <svelte:head> component, if
+      the current page has one -->
+    %sapper.head%
+  </head>
+  <body>
+    <!-- The application will be rendered inside this element,
+      because `src/client.js` references it -->
+    <div id="sapper">%sapper.html%</div>
+
+    <!-- Sapper creates a <script> tag containing `src/client.js`
+      and anything else it needs to hydrate the app and
+      initialise the router -->
+    %sapper.scripts%
+
+    <footer>
+      <div>
+        <p>Rise Of Kingdoms GG</p>
+      </div>
+    </footer>
+  </body>
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+    }
+    footer {
+      border-top: 1px solid rgba(255, 62, 0, 0.1);
+      font-weight: 300;
+      padding: 1em 1em;
+    }
+
+    footer div {
+      margin: 0 auto;
+      max-width: 1240px;
+      color: #f06060;
+      font-weight: bold;
+    }
+  </style>
+</html>
