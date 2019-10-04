@@ -58,14 +58,20 @@
     footer {
       border-top: 1px solid rgba(255, 62, 0, 0.1);
       font-weight: 300;
-      padding: 1em 1em;
+      padding: 16px;
     }
 
     footer div {
       margin: 0 auto;
-      max-width: 1240px;
+      max-width: 1280px;
       color: #f06060;
       font-weight: bold;
+    }
+
+    @media (min-width: 600px) {
+      footer div p {
+        padding: 8px;
+      }
     }
   </style>
 </html>

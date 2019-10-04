@@ -4,14 +4,24 @@
 
 <style>
   .nav-container {
-    display: flex;
     border-bottom: 1px solid rgba(255, 62, 0, 0.1);
+  }
+
+  .nav-wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+
+  @media (max-width: 599px) {
+    .logo-wrapper {
+      padding: 0 8px;
+    }
   }
 
   .logo-wrapper {
     align-items: center;
     display: flex;
-    padding: 0 24px;
   }
 
   .logo-wrapper a {
@@ -31,7 +41,7 @@
 
   /* clearfix */
   ul::after {
-    content: "";
+    content: '';
     display: block;
     clear: both;
   }
@@ -50,7 +60,7 @@
 
   .selected::after {
     position: absolute;
-    content: "";
+    content: '';
     width: calc(100% - 1em);
     height: 2px;
     background-color: rgb(255, 62, 0);
@@ -66,21 +76,19 @@
 </style>
 
 <div class="nav-container">
-  <div class="logo-wrapper">
-    <a href=".">ROK.GG</a>
-  </div>
-  <nav>
-    <ul>
-      <li>
-        <a
-          class={!segment || segment === 'commander' ? 'selected' : ''}
-          href=".">
-          사령관
-        </a>
-      </li>
-      <!-- <li>
+  <div class="nav-wrapper">
+    <div class="logo-wrapper">
+      <a href=".">ROK.GG</a>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a class={!segment || segment === 'commander' ? 'selected' : ''} href=".">사령관</a>
+        </li>
+        <!-- <li>
         <a class={segment === 'info' ? 'selected' : ''} href="info">정보</a>
       </li> -->
-    </ul>
-  </nav>
+      </ul>
+    </nav>
+  </div>
 </div>

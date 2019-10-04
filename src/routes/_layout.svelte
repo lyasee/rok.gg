@@ -16,7 +16,7 @@
 
 <style>
   .layout {
-    max-width: 64em;
+    max-width: 1280px;
     margin: 0 auto;
     position: relative;
     box-sizing: border-box;
