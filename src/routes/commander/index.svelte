@@ -1,20 +1,31 @@
 <script context="module">
-  export function preload({ params, query }) {
-    return this.fetch(`commander.json`)
+  export function preload({params, query}) {
+    return this.fetch(`index.json`)
       .then(r => r.json())
       .then(commanders => {
-        return { commanders };
+        return {commanders};
       });
   }
 </script>
 
 <script>
-  import CommanderCard from "../../components/commanders/CommanderCard.svelte";
+  import CommanderCard from '../../components/commanders/CommanderCard.svelte';
   export let commanders;
 </script>
 
 <style>
-  .commanders-list {
+  .update-container {
+    display: flex;
+    padding: 16px 8px 0 8px;
+  }
+
+  .update-container span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #f06060;
+  }
+
+  .commander-list {
     display: flex;
     flex-wrap: wrap;
     padding: 8px 0;
@@ -22,16 +33,14 @@
 </style>
 
 <svelte:head>
-  <title>사령관</title>
+  <title>라이즈 오브 킹덤즈</title>
 </svelte:head>
 
-<div style="display: flex; padding: 16px 8px 0 8px;">
-  <span style="font-size: 12px; font-weight: bold; color: #f06060;">
-    업데이트: 2019.10.04
-  </span>
+<div class="update-container">
+  <span>업데이트: 2019.10.05</span>
 </div>
 
-<div class="commanders-list">
+<div class="commander-list">
   {#each commanders as commander}
     <CommanderCard
       rarity={commander.rarity}

@@ -94,7 +94,7 @@
         <div style="padding: 0 3px;">{commander.nation} /</div>
         <div style="padding: 0 3px;">{commander.nickname} /</div>
         <div>
-          <span style="color: #a334bf;">
+          <span>
             <strong>{' '} {commander.rarity}</strong>
           </span>
         </div>
