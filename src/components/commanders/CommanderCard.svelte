@@ -1,9 +1,6 @@
 <script>
-  import {
-    getNationImage,
-    getSpecificityImage
-  } from "../../routes/commander/data/utils";
-  import Specialty from "./Specialty.svelte";
+  import {getNationImage, getSpecificityImage} from '../../routes/commander/data/utils';
+  import Specialty from './Specialty.svelte';
 
   export let rarity;
   export let name;
@@ -58,10 +55,7 @@
 <div
   class="commander-card shadow"
   style={rarity === '레전드' ? 'background: #fcd04b;' : rarity === '에픽' ? 'background: #9e54bd;' : rarity === '엘리트' ? 'background: #4593e3;' : 'background: #2ecc71;'}>
-  <a
-    rel="prefetch"
-    href="commander/{name}"
-    style="height: 100%; width: 100%; padding: 16px 0;">
+  <a rel="prefetch" href="commander/{name}" style="height: 100%; width: 100%; padding: 16px 0;">
     <div class="commander-card-content">
       <div style="padding: 8px;">
         <div
@@ -74,9 +68,7 @@
           <span style="font-size: 15px; font-weight: bold;">{name}</span>
         </div>
         <div>
-          <span style="color: #fff; font-weight: bold; font-size: 12px;">
-            {grade === '' ? 'NOT' : grade} Rank
-          </span>
+          <span style="color: #fff; font-weight: bold; font-size: 12px;">{grade === '' ? 'NOT' : grade} Rank</span>
           <!-- <Specialty
             image={getSpecificityImage(specialties.red)}
             text={specialties.red} /> -->

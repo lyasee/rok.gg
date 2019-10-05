@@ -201,7 +201,7 @@
         <h4>주사령관</h4>
         {#each commander.pairs.primary as pair}
           <div style="padding: 8px 0; widht: 100%">
-            <span>{pair.rank}등</span>
+            <span>{pair.rank}티어</span>
             <span>{' - '}</span>
             <span style="color: #f06060; font-weight: bold;">{pair.primary}</span>
             <span>{' - '}</span>
