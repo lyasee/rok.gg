@@ -1,15 +1,15 @@
 <script context="module">
-  export function preload({ params, query }) {
+  export function preload({params, query}) {
     return this.fetch(`index.json`)
       .then(r => r.json())
       .then(commanders => {
-        return { commanders };
+        return {commanders};
       });
   }
 </script>
 
 <script>
-  import CommanderCard from "../components/commanders/CommanderCard.svelte";
+  import CommanderCard from '../components/commanders/CommanderCard.svelte';
   export let commanders;
 </script>
 
@@ -33,7 +33,7 @@
 </style>
 
 <svelte:head>
-  <title>사령관</title>
+  <title>라이즈 오브 킹덤즈</title>
 </svelte:head>
 
 <div class="update-container">
