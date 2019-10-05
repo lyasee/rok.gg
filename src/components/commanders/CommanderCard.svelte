@@ -54,7 +54,7 @@
 
 <div
   class="commander-card shadow"
-  style={rarity === '레전드' ? 'background: #fcd04b;' : rarity === '에픽' ? 'background: #9e54bd;' : rarity === '엘리트' ? 'background: #4593e3;' : 'background: #2ecc71;'}>
+  style={rarity === '레전드' ? 'background: #fcd04b;' : rarity === '에픽' ? 'background: #9e54bdf2;' : rarity === '엘리트' ? 'background: #4593e3f5;' : 'background: #2ecc71;'}>
   <a rel="prefetch" href="commander/{name}" style="height: 100%; width: 100%; padding: 16px 0;">
     <div class="commander-card-content">
       <div style="padding: 8px;">
@@ -67,16 +67,17 @@
           <img src={getNationImage(nation)} alt="" height="14px" />
           <span style="font-size: 15px; font-weight: bold;">{name}</span>
         </div>
-        <div>
+        <!-- <div>
           <span style="color: #fff; font-weight: bold; font-size: 12px;">{grade === '' ? 'NOT' : grade} Rank</span>
-          <!-- <Specialty
-            image={getSpecificityImage(specialties.red)}
-            text={specialties.red} /> -->
-        </div>
+        </div> -->
       </div>
     </div>
   </a>
   <div style="position: absolute; bottom: 2px; right: 6px;">
     <span style="font-size: 10px; color: #FFF;">{rarity}</span>
+  </div>
+
+  <div style="position: absolute; top: 4px; right: 8px;">
+    <span style="color: #fff; font-weight: bold; font-size: 24px;">{grade === '' ? '-' : grade}</span>
   </div>
 </div>
