@@ -53,7 +53,8 @@ export const epics = [sun_tzu, kusunoki_masashige, eulji_mundeok, pelagius, joan
 
 // 엘리트 사령관
 import tomoe_gozen from './data/elite/tomoe_gozen';
+import sarka from './data/elite/sarka';
 
-const commanders = legends.concat(epics).concat(tomoe_gozen);
+const commanders = legends.concat(epics).concat(sarka, tomoe_gozen);
 
 export default commanders;

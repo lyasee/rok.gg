@@ -1,3 +1,5 @@
+const gathering = [{primary: '샤르카', secondary: '채집 영웅', rank: 1}];
+
 export default [
   {primary: '바이바르스', secondary: '손무', rank: 4},
   {primary: '바이바르스', secondary: '구스노키 마사시게', rank: 4},
@@ -131,4 +133,5 @@ export default [
   {primary: '수호자', secondary: '잔 다르크', rank: 4},
   {primary: '수호자', secondary: '부디카', rank: 4},
   {primary: '수호자', secondary: '프리드리히 1세', rank: 4},
+  ...gathering,
 ];
