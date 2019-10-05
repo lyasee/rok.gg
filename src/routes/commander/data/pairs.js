@@ -1,4 +1,4 @@
-const gathering = [{primary: '샤르카', secondary: '채집 영웅', rank: 1}];
+const gathering = [{primary: '샤르카', secondary: '채집 영웅', rank: 1}, {primary: '쿠스탄차', secondary: '채집 영웅', rank: 1}];
 
 export default [
   {primary: '바이바르스', secondary: '손무', rank: 4},
