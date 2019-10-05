@@ -47,8 +47,9 @@ import kusunoki_masashige from './data/epic/kusunoki_masashige';
 import boudica from './data/epic/boudica';
 import baibars from './data/epic/baibars';
 import belisarius from './data/epic/belisarius';
+import osman from './data/epic/osman';
 
-export const epics = [sun_tzu, kusunoki_masashige, eulji_mundeok, pelagius, joan_of_arc, boudica, baibars, hermann, belisarius, scipio, lohar];
+export const epics = [sun_tzu, kusunoki_masashige, eulji_mundeok, pelagius, joan_of_arc, boudica, baibars, osman, hermann, belisarius, scipio, lohar];
 
 // 엘리트 사령관
 import tomoe_gozen from './data/elite/tomoe_gozen';
