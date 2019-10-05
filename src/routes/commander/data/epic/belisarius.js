@@ -1,4 +1,5 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
+import {RANK_C} from '../statics';
 
 const COMMANDER_NAME = '벨리사리우스';
 
@@ -8,7 +9,7 @@ const temp = {
   image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest/scale-to-width-down/258?cb=20190217114119',
   thumbnail: '',
   basePower: 600,
-  grade: '',
+  grade: RANK_C,
   rarity: '에픽',
   nation: '비잔티움',
   specialties: {

@@ -1,4 +1,5 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
+import {RANK_A} from '../statics';
 
 const COMMANDER_NAME = '메흐메트 2세';
 
@@ -8,7 +9,7 @@ const temp = {
   image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest/scale-to-width-down/278?cb=20190217114048',
   thumbnail: '',
   basePower: 1200,
-  grade: '',
+  grade: RANK_A,
   rarity: '레전드',
   nation: '오스만',
   specialties: {

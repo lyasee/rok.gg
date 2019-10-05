@@ -1,4 +1,5 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
+import {RANK_A} from '../statics';
 
 const COMMANDER_NAME = '한니발 바르카';
 
@@ -8,7 +9,7 @@ const temp = {
   image: 'https://rok.guide/wp-content/uploads/2019/02/hannibal-barca-136x300.png',
   thumbnail: '',
   basePower: 1200,
-  grade: '',
+  grade: RANK_A,
   rarity: '레전드',
   nation: '기타',
   specialties: {

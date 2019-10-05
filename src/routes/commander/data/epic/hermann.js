@@ -19,7 +19,7 @@ const temp = {
   },
   talentTrees: [
     {
-      title: '누커',
+      title: '극딜',
       image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/HERMANN_TALENTS_NUKER.png?resize=%271024%2C577&ssl=1%27',
     },
     {
@@ -27,7 +27,7 @@ const temp = {
       image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/HERMANN_TALENTS_GARRISON.png?resize=%271024%2C577&ssl=1%27',
     },
     {
-      title: '보병',
+      title: '궁병',
       image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/HERMANN_TALENTS_ARCHERY.png?resize=%271024%2C577&ssl=1%27',
     },
   ],

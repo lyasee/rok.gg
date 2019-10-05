@@ -46,8 +46,9 @@ import sun_tzu from './data/epic/sun_tzu';
 import kusunoki_masashige from './data/epic/kusunoki_masashige';
 import boudica from './data/epic/boudica';
 import baibars from './data/epic/baibars';
+import belisarius from './data/epic/belisarius';
 
-export const epics = [sun_tzu, kusunoki_masashige, eulji_mundeok, pelagius, joan_of_arc, boudica, baibars, scipio, hermann, lohar];
+export const epics = [sun_tzu, kusunoki_masashige, eulji_mundeok, pelagius, joan_of_arc, boudica, baibars, hermann, belisarius, scipio, lohar];
 
 const commanders = legends.concat(epics);
 

@@ -19,7 +19,7 @@ const temp = {
   },
   talentTrees: [
     {
-      title: '수비',
+      title: '주둔',
       image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/SUN_TZU_TALENTS_GARRISON.png?resize=%271024%2C577&ssl=1%27',
     },
     {
