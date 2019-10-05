@@ -50,6 +50,9 @@ import belisarius from './data/epic/belisarius';
 
 export const epics = [sun_tzu, kusunoki_masashige, eulji_mundeok, pelagius, joan_of_arc, boudica, baibars, hermann, belisarius, scipio, lohar];
 
-const commanders = legends.concat(epics);
+// 엘리트 사령관
+import tomoe_gozen from './data/elite/tomoe_gozen';
+
+const commanders = legends.concat(epics).concat(tomoe_gozen);
 
 export default commanders;
