@@ -23,7 +23,7 @@
     {name: '손무', isRequired: false},
     {name: '구스노키 마사시게', isRequired: false},
     {name: '을지문덕', isRequired: false},
-    {name: '펠라기우스', isRequired: true},
+    {name: '펠라기우스', isRequired: false},
     {name: '잔 다르크', isRequired: false},
     {name: '부디카', isRequired: false},
     {name: '바이바르스', isRequired: false},
