@@ -60,6 +60,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>공지사항</title>
+</svelte:head>
+
 <div style="padding: 32px 16px;">
   <!-- 1 -->
   <p>안녕하세요. ROK.GG 입니다.</p>
