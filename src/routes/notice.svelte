@@ -70,8 +70,8 @@
   <p>
     이 사이트는 사령관 특성을 모아둔 사이트입니다.
     <br />
-    어제 오픈일
-    <span style="color: #f06060; font-weight: bold;">하루 방문자 2700분</span>
+    주말 동안(10.05 ~ 10.06)
+    <span style="color: #f06060; font-weight: bold;">총 방문자 6200분</span>
     이 이용해주셨습니다.
     <br />
     많은 이용에 감사합니다.
