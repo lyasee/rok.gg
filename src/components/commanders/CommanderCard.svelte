@@ -44,7 +44,21 @@
     }
   }
 
-  @media (min-width: 599px) {
+  @media (min-width: 600px) and (max-width: 839px) {
+    .commander-card {
+      width: calc(50% - 16px);
+      margin: 8px;
+    }
+  }
+
+  @media (min-width: 840px) and (max-width: 1079px) {
+    .commander-card {
+      width: calc(33.3333333% - 16px);
+      margin: 8px;
+    }
+  }
+
+  @media (min-width: 1080px) {
     .commander-card {
       margin: 8px;
       width: calc(25% - 16px);
