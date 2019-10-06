@@ -83,11 +83,11 @@
     <nav>
       <ul>
         <li>
+          <a class={segment === 'notice' ? 'selected' : ''} href="notice">공지</a>
+        </li>
+        <li>
           <a class={!segment || segment === 'commander' ? 'selected' : ''} href=".">사령관</a>
         </li>
-        <!-- <li>
-        <a class={segment === 'info' ? 'selected' : ''} href="info">정보</a>
-      </li> -->
       </ul>
     </nav>
   </div>
