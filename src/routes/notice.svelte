@@ -6,8 +6,8 @@
     {name: '엘 시드', isRequired: true},
     {name: '리처드 1세', isRequired: true},
     {name: '카를 마르텔', isRequired: true},
-    {name: '미나모토노 요시쓰네', isRequired: true},
-    {name: '조조', isRequired: true},
+    {name: '미나모토노 요시쓰네', isRequired: false},
+    {name: '조조', isRequired: false},
     {name: '프리드리히 1세', isRequired: true},
     {name: '율리우스 카이사르', isRequired: true},
     {name: '한니발 바르카', isRequired: true},
@@ -22,28 +22,28 @@
   const epics = [
     {name: '손무', isRequired: true},
     {name: '구스노키 마사시게', isRequired: true},
-    {name: '을지문덕', isRequired: true},
+    {name: '을지문덕', isRequired: false},
     {name: '펠라기우스', isRequired: true},
     {name: '잔 다르크', isRequired: true},
     {name: '부디카', isRequired: true},
     {name: '바이바르스', isRequired: true},
-    {name: '오스만 1세', isRequired: true},
+    {name: '오스만 1세', isRequired: false},
     {name: '헤르만', isRequired: false},
-    {name: '벨리사리우스', isRequired: true},
-    {name: '스키피오', isRequired: true},
-    {name: '로하', isRequired: true},
+    {name: '벨리사리우스', isRequired: false},
+    {name: '스키피오', isRequired: false},
+    {name: '로하', isRequired: false},
   ];
 
   const elites = [
-    {name: '쿠스탄차', isRequired: true},
-    {name: '샤르카', isRequired: true},
-    {name: '랜슬롯', isRequired: true},
+    {name: '쿠스탄차', isRequired: false},
+    {name: '샤르카', isRequired: false},
+    {name: '랜슬롯', isRequired: false},
     {name: '가이우스 마리우스', isRequired: false},
     {name: '토모에 고젠', isRequired: false},
   ];
 
   const greats = [
-    {name: '명사수', isRequired: true},
+    {name: '명사수', isRequired: false},
     {name: '수호자', isRequired: false},
     {name: '백부장', isRequired: false},
     {name: '용기병', isRequired: false},
