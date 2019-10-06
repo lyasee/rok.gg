@@ -16,13 +16,24 @@
 <style>
   .update-container {
     display: flex;
-    padding: 16px 8px 0 8px;
+    padding: 16px 16px 0 16px;
   }
 
   .update-container span {
     font-size: 12px;
     font-weight: bold;
     color: #f06060;
+  }
+
+  .notice-container {
+    display: flex;
+    align-items: center;
+    margin: 16px 16px 0 16px;
+    padding: 8px 16px;
+    height: 40px;
+    background: #f6f7f9;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #ccc;
   }
 
   .commander-list {
@@ -35,6 +46,12 @@
 <svelte:head>
   <title>라이즈 오브 킹덤즈</title>
 </svelte:head>
+
+<a href="notice" style="text-decoration: none;">
+  <div class="notice-container">
+    <div style="color: #f06060; font-weight: bold;">[공지사항] 특성 번역을 하려고 합니다.</div>
+  </div>
+</a>
 
 <div class="update-container">
   <span>업데이트: 2019.10.05</span>
