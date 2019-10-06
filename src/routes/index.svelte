@@ -49,7 +49,7 @@
 
 <a href="notice" style="text-decoration: none;">
   <div class="notice-container">
-    <div style="color: #f06060; font-weight: bold;">[공지사항] 특성 번역을 하려고 합니다.</div>
+    <div style="color: #f06060; font-weight: bold;">[공지사항] 특성 이미지 제작 참여</div>
   </div>
 </a>
 
