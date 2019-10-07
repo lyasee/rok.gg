@@ -2,10 +2,10 @@ const gathering = [
   {primary: '샤르카(석재)', secondary: '클레오파트라', rank: 1},
   {primary: '샤르카(석재)', secondary: '채집 영웅', rank: 2},
   {primary: '쿠스탄차(목재)', secondary: '백부장', rank: 1},
-  {primary: '쿠스탄차(목재)', secondary: '채집 영웅', rank: 1},
+  {primary: '쿠스탄차(목재)', secondary: '채집 영웅', rank: 2},
   {primary: '백부장(목재)', secondary: '채집 영웅', rank: 1},
   {primary: '가이우스 마리우스(식량)', secondary: '잔 다르크', rank: 1},
-  {primary: '가이우스 마리우스(식량)', secondary: '채집 영웅', rank: 1},
+  {primary: '가이우스 마리우스(식량)', secondary: '채집 영웅', rank: 2},
   {primary: '선덕(금화)', secondary: '채집 영웅', rank: 1},
 ];
 

@@ -55,8 +55,9 @@ export const epics = [sun_tzu, kusunoki_masashige, eulji_mundeok, pelagius, joan
 import tomoe_gozen from './data/elite/tomoe_gozen';
 import sarka from './data/elite/sarka';
 import constance from './data/elite/constance';
+import gaius_marius from './data/elite/gaius_marius';
 
-const elites = [constance, sarka, tomoe_gozen];
+const elites = [constance, sarka, gaius_marius, tomoe_gozen];
 
 // 우수 사령관
 import centurion from './data/advanced/centurion';
