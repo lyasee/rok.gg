@@ -88,6 +88,9 @@
         <li>
           <a class={!segment || segment === 'commander' ? 'selected' : ''} href=".">사령관</a>
         </li>
+        <li>
+          <a class={segment === 'together' ? 'selected' : ''} href="together">참여자</a>
+        </li>
       </ul>
     </nav>
   </div>
