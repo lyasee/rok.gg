@@ -21,6 +21,10 @@ const temp = {
       title: '채집',
       image: 'https://i.ytimg.com/vi/fJJP14oo870/maxresdefault.jpg',
     },
+    {
+      title: '채집 공통',
+      image: 'https://everythingrok.com/wp-content/uploads/2019/03/Tookies-Gathering-101-Large-1.jpg',
+    },
   ],
   pairs: {
     primary: getPrimaryPairs(COMMANDER_NAME),

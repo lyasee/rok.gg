@@ -18,8 +18,8 @@ const temp = {
   },
   talentTrees: [
     {
-      title: '',
-      image: '',
+      title: '채집 공통',
+      image: 'https://everythingrok.com/wp-content/uploads/2019/03/Tookies-Gathering-101-Large-1.jpg',
     },
   ],
   pairs: {
