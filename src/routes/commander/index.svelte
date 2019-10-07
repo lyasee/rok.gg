@@ -37,7 +37,7 @@
 </svelte:head>
 
 <div class="update-container">
-  <span>업데이트: 2019.10.05</span>
+  <span>업데이트: 2019.10.07</span>
 </div>
 
 <div class="commander-list">
