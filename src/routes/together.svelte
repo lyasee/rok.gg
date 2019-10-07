@@ -59,4 +59,10 @@
       </p>
     </div>
   {/each}
+
+  <div style="padding: 48px 0;">
+    <p>
+      <span class="small-text">현재 이미지는 작업중입니다 :)</span>
+    </p>
+  </div>
 </div>
