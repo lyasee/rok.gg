@@ -56,8 +56,9 @@ import tomoe_gozen from './data/elite/tomoe_gozen';
 import sarka from './data/elite/sarka';
 import constance from './data/elite/constance';
 import gaius_marius from './data/elite/gaius_marius';
+import lancelot from './data/elite/lancelot';
 
-const elites = [constance, sarka, gaius_marius, tomoe_gozen];
+const elites = [constance, sarka, gaius_marius, tomoe_gozen, lancelot];
 
 // 우수 사령관
 import centurion from './data/advanced/centurion';
