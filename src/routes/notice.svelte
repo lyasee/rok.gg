@@ -9,7 +9,7 @@
     {name: '미나모토노 요시쓰네', isRequired: false},
     {name: '조조', isRequired: false},
     {name: '프리드리히 1세', isRequired: false},
-    {name: '율리우스 카이사르', isRequired: true},
+    {name: '율리우스 카이사르', isRequired: false},
     {name: '한니발 바르카', isRequired: false},
     {name: '메흐메트 2세', isRequired: false},
     {name: '콘스탄티누스 1세', isRequired: true},
