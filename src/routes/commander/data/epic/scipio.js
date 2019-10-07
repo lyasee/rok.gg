@@ -1,13 +1,13 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_C_MINUS} from '../statics';
+import {RANK_C_MINUS, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '스키피오';
 
 const scipio = {
   name: COMMANDER_NAME,
   nickname: '전쟁의 칼날',
-  image: 'http://image.rok.gg/commander/scipio.png',
-  thumbnail: 'https://everythingrok.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/Scipio%20(1).png?x23056&bwg=1552671848',
+  image: commanderUrl + 'scipio.png',
+  thumbnail: '',
   basePower: 600,
   grade: RANK_C_MINUS,
   rarity: '에픽',
@@ -20,11 +20,11 @@ const scipio = {
   talentTrees: [
     {
       title: '종합 특성트리',
-      image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/SCIPIO_TALENTS_MIXED_TROOPS.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'scipio-mix.png',
     },
     {
       title: '반복 전투',
-      image: 'https://rok.guide/wp-content/uploads/2019/06/scipio-talent-tree-1024x576.png',
+      image: talentUrl + 'scipio-rally.png',
     },
   ],
   pairs: {
@@ -36,7 +36,7 @@ const scipio = {
       type: '액티브',
       name: '군인의 삶',
       description: '5초 동안 통솔 부대가 받는 피해 20% 감소, 반격 피해가 20% 증가합니다.',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill30.png?w=810&ssl=1',
+      image: skillUrl + 'scipio-skill-1.png',
       skillPreviews: [
         {
           name: '받은 피해량 감소',
@@ -53,7 +53,7 @@ const scipio = {
       type: '패시브',
       name: '인내하는 자',
       description: '스키피오 통솔 부대가 공격받는 경우 10%의 확률로 1초 동안 공격력이 100% 증가합니다.',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill17.png?w=810&ssl=1',
+      image: skillUrl + 'scipio-skill-2.png',
       skillPreviews: [
         {
           name: '공격력 증가',
@@ -69,7 +69,7 @@ const scipio = {
       type: '패시브',
       name: '아프리카의 정복자',
       description: '다른 지도자의 도시 공격 시 주는 피해가 1% 증가합니다.',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill45.png?w=810&ssl=1',
+      image: skillUrl + 'scipio-skill-3.png',
       skillPreviews: [
         {
           name: '피해량 증가',
@@ -81,7 +81,7 @@ const scipio = {
       type: '패시브',
       name: '명문 귀족',
       description: '부대의 최대 수용 인원이 2% 증가합니다.',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill3.png?w=810&ssl=1',
+      image: skillUrl + 'scipio-skill-4.png',
       skillPreviews: [
         {
           name: '명문 귀족',
@@ -93,7 +93,7 @@ const scipio = {
       type: '강화',
       name: '전면 공격',
       description: '',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Commander_skill_Utter_Annihilation.png?w=%27189&ssl=1%27',
+      image: skillUrl + 'scipio-skill-5.png',
       beforeAwakening: '스키피오 통솔 부대가 공격 받는 경우 10%의 확률로 1초동안 공격력이 100% 증가합니다.', // 각성 전
       afterAwakening: '스키피오 통솔 부대가 공격 받는 경우 15%의 확률로 2초동안 공격력이 100% 증가합니다.', // 각성 후
       target: '인내하는 자',

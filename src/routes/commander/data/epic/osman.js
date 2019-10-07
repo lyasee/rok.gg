@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_C} from '../statics';
+import {RANK_C, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '오스만 1세';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '제국의 개척자',
-  image: 'http://image.rok.gg/commander/osman1.png',
+  image: commanderUrl + 'osman1.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C,
@@ -20,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: 'PVP',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman_I_talents_all_in_one.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'osman1-pvp.png',
     },
   ],
   pairs: {
@@ -32,7 +32,7 @@ const temp = {
       type: '액티브',
       name: '제국의 각성',
       description: '',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill80.png?w=810&ssl=1',
+      image: skillUrl + 'osman1-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -45,7 +45,7 @@ const temp = {
       type: '패시브',
       name: '부르사의 빛',
       description: '',
-      image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill90.png?w=810&ssl=1',
+      image: skillUrl + 'osman1-skill-2.png',
       skillPreviews: [
         {
           name: '공격력 증가',
@@ -57,7 +57,7 @@ const temp = {
       type: '패시브',
       name: '오스만의 검',
       description: '',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill91.png?w=810&ssl=1',
+      image: skillUrl + 'osman1-skill-3.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -69,7 +69,7 @@ const temp = {
       type: '패시브',
       name: '술탄의 영광',
       description: '',
-      image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill92.png?w=810&ssl=1',
+      image: skillUrl + 'osman1-skill-4.png',
       skillPreviews: [
         {
           name: '부대 인원 증가',
@@ -81,7 +81,7 @@ const temp = {
       type: '강화',
       name: '제국의 부흥',
       description: '',
-      image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_WakeUpHeroSkill21.png?w=810&ssl=1',
+      image: skillUrl + 'osman1-skill-5.png',
       beforeAwakening: '오스만이 검으로 강력한 공격을 해 타깃에 큰 피해를 줍니다. (피해량 850)', // 각성 전
       afterAwakening: '오스만이 전력을 다해 성스러운 검을 휘둘러 타깃에 큰 피해를 줍니다. (피해량 1000)', // 각성 후
       target: '제국의 각성',

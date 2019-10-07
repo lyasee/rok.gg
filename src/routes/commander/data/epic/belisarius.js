@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_C} from '../statics';
+import {RANK_C, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '벨리사리우스';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '최후의 로마인',
-  image: 'http://image.rok.gg/commander/belisarius.png',
+  image: commanderUrl + 'belisarius.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C,
@@ -20,11 +20,11 @@ const temp = {
   talentTrees: [
     {
       title: '기마병',
-      image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/Belisarius_talents_CAVALRY.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'belisarius-gi.png',
     },
     {
       title: '이동성',
-      image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/Belisarius_talents_KING_OF_MOBILITY.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'belisarius-mo.png',
     },
   ],
   pairs: {
@@ -36,7 +36,7 @@ const temp = {
       type: '액티브',
       name: '',
       description: '',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill78.png?w=810&ssl=1',
+      image: skillUrl + 'belisarius-skill-1.png',
       skillPreviews: [
         {
           name: '공격력 감소',
@@ -57,7 +57,7 @@ const temp = {
       type: '패시브',
       name: '저항 불가',
       description: '',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill84.png?w=810&ssl=1',
+      image: skillUrl + 'belisarius-skill-2.png',
       skillPreviews: [
         {
           name: '야만인에게 주는 피해량 증가',
@@ -69,7 +69,7 @@ const temp = {
       type: '패시브',
       name: '부켈라리이',
       description: '',
-      image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill85.png?w=810&ssl=1',
+      image: skillUrl + 'belisarius-skill-3.png',
       skillPreviews: [
         {
           name: '기마병 방어력 증가',
@@ -85,7 +85,7 @@ const temp = {
       type: '패시브',
       name: '우회 전술',
       description: '',
-      image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_HeroSkill86.png?w=810&ssl=1',
+      image: skillUrl + 'belisarius-skill-4.png',
       skillPreviews: [
         {
           name: '피해량 증가',
@@ -97,7 +97,7 @@ const temp = {
       type: '강화',
       name: '잔인한 부켈라리이',
       description: '',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/img_WakeUpHeroSkill24.png?w=810&ssl=1',
+      image: skillUrl + 'belisarius-skill-5.png',
       beforeAwakening: '통솔 기병 유닛의 방어력이 15% 증가합니다. 전투 후 행군 속도가 25% 증가하며 10초 동안 지속됩니다.', // 각성 전
       afterAwakening: '통솔 기병 유닛의 방어력이 30% 증가합니다. 전투 후 행군 속도가 50% 증가하며 10초 동안 지속됩니다.', // 각성 후
       target: '부켈라리이',

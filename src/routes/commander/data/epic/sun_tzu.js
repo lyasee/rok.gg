@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_A_MINUS} from '../statics';
+import {RANK_A_MINUS, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '손무';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '하늘의 인재',
-  image: 'http://image.rok.gg/commander/sun_tzu.png',
+  image: commanderUrl + 'sun_tzu.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_A_MINUS,
@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '극딜',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/SUN_TZU_TALENTS_NUKER-1.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'sun_tzu-nuker.png',
     },
     {
       title: '주둔',
-      image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/SUN_TZU_TALENTS_GARRISON.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'sun_tzu-zu.png',
     },
     {
       title: '보병',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/SUN_TZU_TALENTS_INFANTRI.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'sun_tzu-bo.png',
     },
   ],
   pairs: {
@@ -41,7 +41,7 @@ const temp = {
       name: '손자병볍',
       description:
         '부채꼴 범위 내 최대 3개 타깃에 즉시 피해를 주고(피해량 150) 다음 턴에 추가 피해를 줍니다.(피해량 50) 타깃 명중 시 마다 손무가 분노 10포인트를 추가 획득합니다.',
-      image: 'https://rok.guide/images/art-of-war.png',
+      image: skillUrl + 'sun_tzu-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -62,7 +62,7 @@ const temp = {
       type: '패시브',
       name: '용병지도',
       description: '주둔 부대 사령관 담당 시 주둔 부대가 받는 피해가 1% 감소합니다.',
-      image: 'https://rok.guide/images/philosophy-of-war.png',
+      image: skillUrl + 'sun_tzu-skill-2.png',
       skillPreviews: [
         {
           name: '주둔 부대 피해량 감소',
@@ -74,7 +74,7 @@ const temp = {
       type: '패시브',
       name: '전략의 대가',
       description: '통솔 부대가 받는 피해 감소 효과 4% 증가, 보병 유닛의 생명력이 4% 증가합니다.',
-      image: 'https://rok.guide/images/master-strategist.png',
+      image: skillUrl + 'sun_tzu-skill-3.png',
       skillPreviews: [
         {
           name: '받은 피해량 감소',
@@ -90,7 +90,7 @@ const temp = {
       type: '패시브',
       name: '병자궤도',
       description: '스킬 피해가 5% 증가합니다.',
-      image: 'https://rok.guide/images/ever-changing-tactics.png',
+      image: skillUrl + 'sun_tzu-skill-4.png',
       skillPreviews: [
         {
           name: '스킬 피해량 증가',
@@ -102,7 +102,7 @@ const temp = {
       type: '강화',
       name: '만세병서',
       description: '',
-      image: 'https://rok.guide/images/book-of-aeons.png',
+      image: skillUrl + 'sun_tzu-skill-5.png',
       beforeAwakening:
         '부채꼴 범위 내 최대 3개 타깃에 즉시 피해를 주고(피해량 450) 다음 턴에 추가 피해를 줍니다.(피해량 150) 타깃 명중 시마다 손무가 분노 50포인트를 추가 획득합니다.', // 각성 전
       afterAwakening:

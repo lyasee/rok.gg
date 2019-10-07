@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_C_PLUS} from '../statics';
+import {RANK_C_PLUS, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '부디카';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '켈트의 장미',
-  image: 'http://image.rok.gg/commander/boudica.png',
+  image: commanderUrl + 'boudica.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C_PLUS,
@@ -20,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '종합',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/BOUDICA_TALENTS_nukerlvl.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'boudica-mix.png',
     },
   ],
   pairs: {
@@ -32,7 +32,7 @@ const temp = {
       type: '액티브',
       name: '선동자의 비명',
       description: '타깃에 막대한 피해를 주고 타깃의 분노 포인트 감소, 2초 동안 타깃 부대의 공격력이 감소합니다.',
-      image: 'https://rok.guide/images/the-insurgent.png',
+      image: skillUrl + 'boudica-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -53,7 +53,7 @@ const temp = {
       type: '패시브',
       name: '집단 전투',
       description: '통솔 부대가 야만인 또는 다른 중립 유닛에게 주는 피해가 증가, 야만인 또는 다른 중립 유닛 처치 시 사령관 경험치 획득량이 20% 증가합니다.',
-      image: 'https://rok.guide/images/group-battle.png',
+      image: skillUrl + 'boudica-skill-2.png',
       skillPreviews: [
         {
           name: '야만인에게 주는 피해량 증가',
@@ -65,7 +65,7 @@ const temp = {
       type: '패시브',
       name: '켈트 혈통',
       description: '스킬 시전 시 부디카가 분노 포인트 획득, 일부 경상 유닛을 치료합니다.',
-      image: 'https://rok.guide/images/celtic-blood.png',
+      image: skillUrl + 'boudica-skill-3.png',
       skillPreviews: [
         {
           name: '분노 회복',
@@ -81,7 +81,7 @@ const temp = {
       type: '패시브',
       name: '이케니 여왕',
       description: '통솔 부대가 일반 공격 시 다음 과 같이 일정 확률로 적에게 주는 피해가 증가합니다.',
-      image: 'https://rok.guide/images/queen-of-the-Iceni.png',
+      image: skillUrl + 'boudica-skill-4.png',
       skillPreviews: [
         {
           name: '피해량 증가(5% 확률)',
@@ -101,7 +101,7 @@ const temp = {
       type: '강화',
       name: '선동의 외침',
       description: '',
-      image: 'https://rok.guide/images/roar-of-the-insurgent.png',
+      image: skillUrl + 'boudica-skill-5.png',
       beforeAwakening: '타깃에 막대한 피해를 주고(피해량 600) 타깃의 분노 100포인트 감소, 2초 동안 타깃 부대의 공격력이 25% 감소합니다.', // 각성 전
       afterAwakening: '타깃에 막대한 피해를 주고(피해량 1000) 타깃의 분노 100포인트 감소, 2초 동안 타깃 부대의 공격력이 25% 감소합니다.', // 각성 후
       target: '선동자의 비명',

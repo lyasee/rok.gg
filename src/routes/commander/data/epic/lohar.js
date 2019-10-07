@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_D} from '../statics';
+import {RANK_D, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '로하';
 
 const lohar = {
   name: COMMANDER_NAME,
   nickname: '야만인의 포효',
-  image: 'http://image.rok.gg/commander/lohar.png',
+  image: commanderUrl + 'lohar.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_D,
@@ -20,7 +20,7 @@ const lohar = {
   talentTrees: [
     {
       title: '종합',
-      image: 'https://kpopmemory.com/wp-content/uploads/2019/09/image-33.png',
+      image: talentUrl + 'lohar-mix.png',
     },
   ],
   pairs: {
@@ -32,7 +32,7 @@ const lohar = {
       type: '액티브',
       name: '압도적인 힘',
       description: '단일 타깃에 대량의 피해를 줍니다.(피해량 250) 통솔 부대의 일부 경상 유닛을 치료합니다.(치료량 250)',
-      image: 'https://rok.guide/images/overwhelming-force.png',
+      image: skillUrl + 'lohar-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -49,7 +49,7 @@ const lohar = {
       type: '패시브',
       name: '제재',
       description: '야만인과 중립 유닛에게 주는 피해가 10% 증가합니다.',
-      image: 'https://rok.guide/images/sanction.png',
+      image: skillUrl + 'lohar-skill-2.png',
       skillPreviews: [
         {
           name: '야만인에게 주는 피해량 증가',
@@ -61,7 +61,7 @@ const lohar = {
       type: '패시브',
       name: '로하의 시험',
       description: '현재 부대 중 모든 사령관이 획득하는 경험치가 20% 증가합니다.',
-      image: 'https://rok.guide/images/lohar-trial.png',
+      image: skillUrl + 'lohar-skill-3.png',
       skillPreviews: [
         {
           name: '경험치 증가',
@@ -73,7 +73,7 @@ const lohar = {
       type: '패시브',
       name: '포악한 피',
       description: '전투 이탈 후 일부 경상 유닛을 치료합니다.(치료량 500)',
-      image: 'https://rok.guide/images/unruly-blood.png',
+      image: skillUrl + 'lohar-skill-4.png',
       skillPreviews: [
         {
           name: '치료량',
@@ -85,7 +85,7 @@ const lohar = {
       type: '강화',
       name: '불굴의 투혼',
       description: '',
-      image: 'https://rok.guide/images/unyielding-spirit.png',
+      image: skillUrl + 'lohar-skill-5.png',
       beforeAwakening: '전투 이탈 후 일부 경상 유닛을 치료합니다.(치료량 1000)', // 각성 전
       afterAwakening: '전투 이탈 후 일부 경상 유닛을 치료합니다.(치료량 2000)', // 각성 후
       target: '포악한 피',

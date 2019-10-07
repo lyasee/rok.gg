@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_C} from '../statics';
+import {RANK_C, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '헤르만';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '토이토부르크의 해방자',
-  image: 'http://image.rok.gg/commander/hermann.png',
+  image: commanderUrl + 'hermann.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C,
@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '극딜',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/HERMANN_TALENTS_NUKER.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'hermann-nuker.png',
     },
     {
       title: '주둔',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/HERMANN_TALENTS_GARRISON.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'hermann-zu.png',
     },
     {
       title: '궁병',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/HERMANN_TALENTS_ARCHERY.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'hermann-arc.png',
     },
   ],
   pairs: {
@@ -40,7 +40,7 @@ const temp = {
       type: '액티브',
       name: '매복',
       description: '타깃에 막대한 피해를 주고(피해량 300) 타깃의 분노 50포인트 감소, 다음 2초 동안 타깃을 침묵 상태로 만듭니다.',
-      image: 'https://rok.guide/images/ambush.png',
+      image: skillUrl + 'hermann-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -57,7 +57,7 @@ const temp = {
       type: '패시브',
       name: '군사 천재',
       description: '궁병 공격력 3% 증가, 행군 속도가 1.5% 증가합니다.',
-      image: 'https://rok.guide/images/military-genius.png',
+      image: skillUrl + 'hermann-skill-2.png',
       skillPreviews: [
         {
           name: '궁병 공격력 증가',
@@ -73,7 +73,7 @@ const temp = {
       type: '패시브',
       name: '토이토부르크의 전설',
       description: '주둔 부대 사령관 담당 시 주둔 부대와 경계탑의 공격력이 1% 증가합니다.',
-      image: 'https://rok.guide/images/legend-of-teutoburger.png',
+      image: skillUrl + 'hermann-skill-3.png',
       skillPreviews: [
         {
           name: '주둔 부대/경계탑 공격력 증가',
@@ -85,7 +85,7 @@ const temp = {
       type: '패시브',
       name: '민족 영웅',
       description: '통솔 부대가 일반 공격 시 피해 3% 증가, 2% 확률로 분노 100포인트를 추가 획득합니다.',
-      image: 'https://rok.guide/images/national-hero.png',
+      image: skillUrl + 'hermann-skill-4.png',
       skillPreviews: [
         {
           name: '일반 공격력 피해량 증가',
@@ -101,7 +101,7 @@ const temp = {
       type: '강화',
       name: '막다른 길',
       description: '',
-      image: 'https://rok.guide/images/dead-end.png',
+      image: skillUrl + 'hermann-skill-5.png',
       beforeAwakening: '타깃에 막대한 피해를 주고(피해량 750) 타깃의 분노 100포인트 감소, 다음 2초 동안 타깃을 침묵 상태로 만듭니다.', // 각성 전
       afterAwakening: '타깃에 막대한 피해를 주고(피해량 1150) 타깃의 분노 100포인트 감소, 다음 2초 동안 타깃을 침묵 상태로 만듭니다.', // 각성 후
       target: '매복',

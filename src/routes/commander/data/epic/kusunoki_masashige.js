@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_B} from '../statics';
+import {RANK_B, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '구스노키 마사시게';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '무사도의 혼',
-  image: 'http://image.rok.gg/commander/kusunoki_masashige.png',
+  image: commanderUrl + 'kusunoki_masashige.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_B,
@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '극딜',
-      image: 'https://i0.wp.com/everythingrok.com/wp-content/uploads/2019/03/KUSUNOKI_TALENTS_NUKER.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'kusunoki_masashige-nuker.png',
     },
     {
       title: '주둔',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/KUSUNOKI_TALENTS_GARRISON.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'kusunoki_masashige-zu.png',
     },
     {
       title: '궁병',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/KUSUNOKI_TALENTS_ARCHER.png?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'kusunoki_masashige-arc.png',
     },
   ],
   pairs: {
@@ -41,7 +41,7 @@ const temp = {
       name: '칠생보국',
       description:
         '구스노키 마사시게 통솔 부대의 디버프 및 제어 효과가 사라집니다. 부채꼴 범위 내 최대 3개의 타깃에 막대한 피해를 주고, 2초 동안 추가 피해를 줍니다.',
-      image: 'https://rok.guide/images/charge.png',
+      image: skillUrl + 'kusunoki_masashige-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -58,7 +58,7 @@ const temp = {
       type: '패시브',
       name: '충의지사',
       description: '주둔 부대 사령관 담당 시 주둔 부대의 반격 피해가 증가합니다.',
-      image: 'https://rok.guide/images/founder-of-asturias.png',
+      image: skillUrl + 'kusunoki_masashige-skill-2.png',
       skillPreviews: [
         {
           name: '주둔 부대 반격 피해량 증가',
@@ -70,7 +70,7 @@ const temp = {
       type: '패시브',
       name: '지용겸비',
       description: '궁병 유닛의 공격력 증가, 방어력이 증가합니다.',
-      image: 'https://rok.guide/images/retaking-lost-territory.png',
+      image: skillUrl + 'kusunoki_masashige-skill-3.png',
       skillPreviews: [
         {
           name: '궁병 공격력 증가',
@@ -86,7 +86,7 @@ const temp = {
       type: '패시브',
       name: '비극의 끝',
       description: '통솔 부대가 일반 공격시 10%의 확률로 타깃에게 2초 동안 1초마다 추가 피해를 줍니다.',
-      image: 'https://rok.guide/images/mutineer.png',
+      image: skillUrl + 'kusunoki_masashige-skill-4.png',
       skillPreviews: [
         {
           name: '추가 피해량',
@@ -98,7 +98,7 @@ const temp = {
       type: '강화',
       name: '사무라이의 혼',
       description: '',
-      image: 'https://rok.guide/images/oath-of-asseuua.png',
+      image: skillUrl + 'kusunoki_masashige-skill-5.png',
       beforeAwakening: '궁병 유닛의 공격력 10% 증가, 방어력이 10% 증가합니다.', // 각성 전
       afterAwakening: '궁병 유닛의 공격력 15% 증가, 방어력이 15% 증가합니다.', // 각성 후
       target: '지용 겸비',
