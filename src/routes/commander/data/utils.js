@@ -1,4 +1,5 @@
 import paris from './pairs';
+import {specificityUrl, nationUrl} from './statics';
 
 // 스킬 레벨 별 증가, 감소량
 export const makeSkillPreviews = (level1, level2, level3, level4, level5) => {
@@ -28,33 +29,33 @@ export const makeSkillPreviews = (level1, level2, level3, level4, level5) => {
 
 export const getSpecificityImage = specificity => {
   if (specificity === '리더십') {
-    return 'https://rok.guide/images/leadership.png';
+    return specificityUrl + 'leadership.png';
   } else if (specificity === '보병 유닛') {
-    return 'https://rok.guide/images/infantry.png';
+    return specificityUrl + 'infantry.png';
   } else if (specificity === '공성') {
-    return 'https://rok.guide/images/siege.png';
+    return specificityUrl + 'siege.png';
   } else if (specificity === '공격') {
-    return 'https://rok.guide/images/attack.png';
+    return specificityUrl + 'attack.png';
   } else if (specificity === '주둔') {
-    return 'https://rok.guide/images/garrison.png';
+    return specificityUrl + 'garrison.png';
   } else if (specificity === '종합') {
-    return 'https://rok.guide/images/integration.png';
+    return specificityUrl + 'integration.png';
   } else if (specificity === '야만') {
-    return 'https://rok.guide/images/gathering.png';
+    return specificityUrl + 'gathering.png';
   } else if (specificity === '지원') {
-    return 'https://rok.guide/images/support.png';
+    return specificityUrl + 'support.png';
   } else if (specificity === '채집') {
-    return 'https://rok.guide/images/gathering.png';
+    return specificityUrl + 'gathering.png';
   } else if (specificity === '궁병 유닛') {
-    return 'https://rok.guide/images/archer.png';
+    return specificityUrl + 'archer.png';
   } else if (specificity === '스킬') {
-    return 'https://rok.guide/images/skill.png';
+    return specificityUrl + 'skill.png';
   } else if (specificity === '기마병 유닛') {
-    return 'https://rok.guide/images/cavalry.png';
+    return specificityUrl + 'cavalry.png';
   } else if (specificity === '유동성') {
-    return 'https://rok.guide/images/vesatility.png';
+    return specificityUrl + 'vesatility.png';
   } else if (specificity === '기동') {
-    return 'https://rok.guide/images/mobility.png';
+    return specificityUrl + 'mobility.png';
   } else {
     return '';
   }
@@ -62,25 +63,25 @@ export const getSpecificityImage = specificity => {
 
 export const getNationImage = nation => {
   if (nation === '로마') {
-    return 'https://rok.guide/images/rome.png';
+    return nationUrl + 'rome.png';
   } else if (nation === '한국') {
-    return 'https://rok.guide/images/korea.png';
+    return nationUrl + 'korea.png';
   } else if (nation === '아라비아') {
-    return 'https://rok.guide/images/arabia.png';
+    return nationUrl + 'arabia.png';
   } else if (nation === '브리튼') {
-    return 'https://rok.guide/images/britain.png';
+    return nationUrl + 'britain.png';
   } else if (nation === '일본') {
-    return 'https://rok.guide/images/japan-icon.png';
+    return nationUrl + 'japan-icon.png';
   } else if (nation === '중국') {
-    return 'https://rok.guide/images/china.png';
+    return nationUrl + 'china.png';
   } else if (nation === '스페인') {
-    return 'https://rok.guide/wp-content/uploads/2019/02/spain.png';
+    return nationUrl + 'spain.png';
   } else if (nation === '독일') {
-    return 'https://rok.guide/images/germany.png';
+    return nationUrl + 'germany.png';
   } else if (nation === '프랑스') {
-    return 'https://rok.guide/images/france.png';
+    return nationUrl + 'france.png';
   } else {
-    return 'https://rok.guide/images/other.png';
+    return nationUrl + 'other.png';
   }
 };
 
