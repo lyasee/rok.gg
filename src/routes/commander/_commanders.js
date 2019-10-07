@@ -61,8 +61,11 @@ const elites = [constance, sarka, gaius_marius, tomoe_gozen];
 
 // 우수 사령관
 import centurion from './data/advanced/centurion';
+import markswoman from './data/advanced/markswoman';
+import city_keeper from './data/advanced/city_keeper';
+import dragon_lancer from './data/advanced/dragon_lancer';
 
-const advanceds = [centurion];
+const advanceds = [centurion, markswoman, city_keeper, dragon_lancer];
 
 const commanders = legends
   .concat(epics)
