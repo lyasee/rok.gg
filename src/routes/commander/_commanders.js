@@ -15,6 +15,7 @@ import saladin from './data/legend/saladin';
 import alexander_greate from './data/legend/alexander_greate';
 import constantine from './data/legend/constantine';
 import genghis_khan from './data/legend/genghis_khan';
+import aethelflaed from './data/legend/aethelflaed';
 
 export const legends = [
   alexander_greate,
@@ -29,6 +30,7 @@ export const legends = [
   julius_caesar,
   hannibal_barca,
   mehmed2,
+  aethelflaed,
   constantine,
   seondeok,
   genghis_khan,

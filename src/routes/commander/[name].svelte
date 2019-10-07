@@ -118,7 +118,11 @@
     {#each commander.skills as skill}
       <div style="display: flex; padding: 8px 0;">
         <div class="skill-image-wrapper">
-          <img src={skill.image} alt="" height="100%" />
+          {#if skill.image === ''}
+            <div style="height: 64px; width: 64px; background: #efefef; border-radius: 4px;" />
+          {:else}
+            <img src={skill.image} alt="" height="100%" />
+          {/if}
         </div>
         <div style="padding: 2px 8px;">
           <div>
