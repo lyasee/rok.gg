@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_B_PLUS} from '../statics';
+import {RANK_B_PLUS, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '콘스탄티누스 1세';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '비할 데 없는 군주',
-  image: 'http://image.rok.gg/commander/constantine1.png',
+  image: commanderUrl + 'constantine1.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_B_PLUS,
@@ -32,8 +32,7 @@ const temp = {
       type: '액티브',
       name: '밀라노 칙령',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a3/Commander_skill_Edict_of_Milan.png/revision/latest/scale-to-width-down/64?cb=20190217144156',
+      image: skillUrl + 'constantine1-skill-1.png',
       skillPreviews: [
         {
           name: '공격력 감소',
@@ -50,8 +49,7 @@ const temp = {
       type: '패시브',
       name: '충성',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/4/4b/Commander_skill_Allegiance.png/revision/latest/scale-to-width-down/64?cb=20190217144211',
+      image: skillUrl + 'constantine1-skill-2.png',
       skillPreviews: [
         {
           name: '보병 생명력 증가',
@@ -63,8 +61,7 @@ const temp = {
       type: '패시브',
       name: '교착',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/6/67/Commander_skill_Impasse.png/revision/latest/scale-to-width-down/64?cb=20190217144222',
+      image: skillUrl + 'constantine1-skill-3.png',
       skillPreviews: [
         {
           name: '주둔 부대 공격력 증가',
@@ -80,8 +77,7 @@ const temp = {
       type: '패시브',
       name: '신성한 십자가',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/3/37/Commander_skill_Cross_of_the_Divine.png/revision/latest/scale-to-width-down/64?cb=20190217144236',
+      image: skillUrl + 'constantine1-skill-4.png',
       skillPreviews: [
         {
           name: '치료량',
@@ -97,8 +93,7 @@ const temp = {
       type: '패시브',
       name: '유일한 아우구스투스',
       description: '통솔 부대 공격력이 15%, 방어력이 5% 증가합니다.',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d7/Commander_skill_Sole_Augustus.png/revision/latest/scale-to-width-down/64?cb=20190217144254',
+      image: skillUrl + 'constantine1-skill-5.png',
       beforeAwakening: '', // 각성 전
       afterAwakening: '', // 각성 후
       target: '',

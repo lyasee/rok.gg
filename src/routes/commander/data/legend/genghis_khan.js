@@ -1,11 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
+import {commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '칭기즈칸';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '최초의 카간',
-  image: 'http://image.rok.gg/commander/genghis_khan.png',
+  image: commanderUrl + 'genghis_khan.png',
   thumbnail: '',
   basePower: 1200,
   grade: '',
@@ -31,8 +32,7 @@ const temp = {
       type: '액티브',
       name: '선택받은 자',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/ce/Commander_skill_Chosen_One.png/revision/latest/scale-to-width-down/64?cb=20190424194049',
+      image: skillUrl + 'genghis_khan-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -45,8 +45,7 @@ const temp = {
       type: '패시브',
       name: '스텝의 폭풍',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a9/Commander_skill_Cyclone_of_the_Steppes.png/revision/latest/scale-to-width-down/64?cb=20190424194056',
+      image: skillUrl + 'genghis_khan-skill-2.png',
       skillPreviews: [
         {
           name: '필요한 분노 포인트 감소',
@@ -66,8 +65,7 @@ const temp = {
       type: '패시브',
       name: '유목 제국',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/4/40/Commander_skill_Nomandic_Empire.png/revision/latest/scale-to-width-down/64?cb=20190424194240',
+      image: skillUrl + 'genghis_khan-skill-3.png',
       skillPreviews: [
         {
           name: '피해량 증가',
@@ -79,8 +77,7 @@ const temp = {
       type: '패시브',
       name: '군사 생활',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/f/fb/Commander_skill_Military_Lifestyle.png/revision/latest/scale-to-width-down/64?cb=20190424194248',
+      image: skillUrl + 'genghis_khan-skill-4.png',
       skillPreviews: [
         {
           name: '스킬 피해량 증가',
@@ -97,8 +94,7 @@ const temp = {
       name: '제일가는 자',
       description:
         '통솔 부대가 기마병 유닛으로만 구성되고 "선택받은 자" 스킬을 사용하는 경우, 30% 확률로 "선택받은 자" 스킬(5레벨)을 즉시 다시 사용할 수 있습니다.',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/7/7e/Commander_skill_Second_to_None.png/revision/latest/scale-to-width-down/64?cb=20190424194134',
+      image: skillUrl + 'genghis_khan-skill-5.png',
       beforeAwakening: '', // 각성 전
       afterAwakening: '', // 각성 후
       target: '',

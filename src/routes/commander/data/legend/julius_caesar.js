@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_A} from '../statics';
+import {RANK_A, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '율리우스 카이사르';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '무관의 제왕',
-  image: 'http://image.rok.gg/commander/julius_caesar.png',
+  image: commanderUrl + 'julius_caesar.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A,
@@ -20,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '종합',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/04/JULIUS_CAESAR_TALENTS_MIXTURE.jpg?w=%27900&ssl=1%27',
+      image: talentUrl + 'julius_caesar-mix.jpg',
     },
   ],
   pairs: {
@@ -32,7 +32,7 @@ const temp = {
       type: '액티브',
       name: '무적의 부대',
       description: '',
-      image: 'https://rok.guide/images/indomitable-army.png',
+      image: skillUrl + 'julius_caesar-skill-1.png',
       skillPreviews: [
         {
           name: '공격력/방어력 증가',
@@ -49,7 +49,7 @@ const temp = {
       type: '패시브',
       name: '신성의 율리우스',
       description: '',
-      image: 'https://rok.guide/images/divine-julius.png',
+      image: skillUrl + 'julius_caesar-skill-2.png',
       skillPreviews: [
         {
           name: '받은 피해량 감소',
@@ -65,7 +65,7 @@ const temp = {
       type: '패시브',
       name: '공성의 달인',
       description: '',
-      image: 'https://rok.guide/images/city-killer.png',
+      image: skillUrl + 'julius_caesar-skill-3.png',
       skillPreviews: [
         {
           name: '방어력 감소',
@@ -77,7 +77,7 @@ const temp = {
       type: '패시브',
       name: '창시자',
       description: '',
-      image: 'https://rok.guide/images/the-founders.png',
+      image: skillUrl + 'julius_caesar-skill-4.png',
       skillPreviews: [
         {
           name: '부대 인원 증가',
@@ -89,7 +89,7 @@ const temp = {
       type: '강화',
       name: '시대를 초월한 자',
       description: '',
-      image: 'https://rok.guide/images/ahead-of-his-time.png',
+      image: skillUrl + 'julius_caesar-skill-5.png',
       beforeAwakening: '5초 동안 부대의 공격력 및 방어력 20% 증가, 주는 피해가 30% 증가합니다.', // 각성 전
       afterAwakening: '단일 타깃에 대량의 피해를 줍니다.(피해량 400) 5초 동안 모든 통솔 부대의 공격력과 방어력이 모두 20% 증가, 주는 피해가 30% 증가합니다.', // 각성 후
       target: '무적의 부대',

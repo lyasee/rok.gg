@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_S} from '../statics';
+import {RANK_S, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '이성계';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '변혁의 활',
-  image: 'http://image.rok.gg/commander/yi_seong_gye.png',
+  image: commanderUrl + 'yi_seong_gye.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S,
@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '극딜',
-      image: 'https://www.gurugamer.ru/upload/000/u1/0/1/yi-seong-goe-nuker.jpg',
+      image: talentUrl + 'yi_seong_gye-nuker.jpg',
     },
     {
       title: '주둔',
-      image: 'https://www.gurugamer.ru/upload/000/u1/0/9/yi-seong-goe-garrison.jpg',
+      image: talentUrl + 'yi_seong_gye-zu.jpg',
     },
     {
       title: '궁병',
-      image: 'https://www.gurugamer.ru/upload/000/u1/9/6/yi-seong-goe.jpg',
+      image: talentUrl + 'yi_seong_gye-arc.jpg',
     },
   ],
   pairs: {
@@ -40,7 +40,7 @@ const temp = {
       type: '액티브',
       name: '만발의 사격',
       description: '',
-      image: 'https://rok.guide/images/rain-of-arrows.png',
+      image: skillUrl + 'yi_seong_gye-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -53,7 +53,7 @@ const temp = {
       type: '패시브',
       name: '궁도',
       description: '',
-      image: 'https://rok.guide/images/art-of-archery.png',
+      image: skillUrl + 'yi_seong_gye-skill-2.png',
       skillPreviews: [
         {
           name: '분노 회복',
@@ -69,7 +69,7 @@ const temp = {
       type: '패시브',
       name: '조선 왕조',
       description: '',
-      image: 'https://rok.guide/images/joseon-dynasty.png',
+      image: skillUrl + 'yi_seong_gye-skill-3.png',
       skillPreviews: [
         {
           name: '주둔 부대/경계탑 공격력 증가',
@@ -81,7 +81,7 @@ const temp = {
       type: '패시브',
       name: '운명',
       description: '',
-      image: 'https://rok.guide/images/destiny.png',
+      image: skillUrl + 'yi_seong_gye-skill-4.png',
       skillPreviews: [
         {
           name: '스킬 피해량 증가',
@@ -93,7 +93,7 @@ const temp = {
       type: '강화',
       name: '화살 폭풍',
       description: '',
-      image: 'https://rok.guide/images/arrow-storm.png',
+      image: skillUrl + 'yi_seong_gye-skill-5.png',
       beforeAwakening: '부채꼴 범위 내의 적 즉시 피해를 줍니다.(피해량 1400, 최대 타깃 5개) 타깃이 추가될때마다 각 타깃이 받는 피해는 15% 감소합니다.', // 각성 전
       afterAwakening: '원형 범위 내의 적에 즉시 피해를 줍니다.(피해량 1700, 최대 타깃 5개) 타깃이 추가될때마다 각 타깃이 받는 피해는 15% 감소합니다.', // 각성 후
       target: '만발의 사격',

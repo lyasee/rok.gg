@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_S} from '../statics';
+import {RANK_S, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '살라딘';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '알 말리크 안 나시르',
-  image: 'http://image.rok.gg/commander/saladin.png',
+  image: commanderUrl + 'saladin.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S,
@@ -20,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '필드',
-      image: 'https://rok.guide/wp-content/uploads/2019/06/saladin-talent-tree-1024x576.png',
+      image: talentUrl + 'saladin-field.png',
     },
   ],
   pairs: {
@@ -32,8 +32,7 @@ const temp = {
       type: '액티브',
       name: '고삐 잡는 자',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/7/78/Commander_skill_Hold_Fast.png/revision/latest/scale-to-width-down/64?cb=20190306203904',
+      image: skillUrl + 'saladin-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -54,8 +53,7 @@ const temp = {
       type: '패시브',
       name: '굴람',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a8/Commander_skill_Ghulams.png/revision/latest/scale-to-width-down/64?cb=20190306203918',
+      image: skillUrl + 'saladin-skill-2.png',
       skillPreviews: [
         {
           name: '기마병 방어력 증가',
@@ -75,8 +73,7 @@ const temp = {
       type: '패시브',
       name: '운명의 족쇄',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a1/Commander_skill_Bond_of_Fate.png/revision/latest/scale-to-width-down/64?cb=20190306203931',
+      image: skillUrl + 'saladin-skill-3.png',
       skillPreviews: [
         {
           name: '받은 스킬 피해 감소',
@@ -92,8 +89,7 @@ const temp = {
       type: '패시브',
       name: '관용',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/4/48/Commander_skill_Generosity.png/revision/latest/scale-to-width-down/64?cb=20190306203943',
+      image: skillUrl + 'saladin-skill-4.png',
       skillPreviews: [
         {
           name: '피해량 증가',
@@ -105,8 +101,7 @@ const temp = {
       type: '강화',
       name: '창조주 찬양',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/2b/Commander_skill_Praise_the_Creator.png/revision/latest/scale-to-width-down/64?cb=20190306204458',
+      image: skillUrl + 'saladin-skill-5.png',
       beforeAwakening: '타깃에 즉시 피해를 주고(피해량 1400), 5초 동안 타깃의 행군 속도 30% 감소, 치료 효과가 40% 감소합니다.', // 각성 전
       afterAwakening: '타깃에 즉시 피해를 주고(피해량 1700), 5초 동안 타깃의 행군 속도 50% 감소, 치료 효과가 50% 감소합니다.', // 각성 후
       target: '고삐 잡는 자',

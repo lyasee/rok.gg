@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_S_PLUS} from '../statics';
+import {RANK_S_PLUS, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '알렉산더 대왕';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '세계 정복자',
-  image: 'http://image.rok.gg/commander/alexander_greate.png',
+  image: commanderUrl + 'alexander_greate.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S_PLUS,
@@ -32,8 +32,7 @@ const temp = {
       type: '액티브',
       name: '왕의 비호',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/0/0c/Commander_skill_Shield_of_the_King.png/revision/latest/scale-to-width-down/64?cb=20190722190830',
+      image: skillUrl + 'alexander_greate-skill-1.png',
       skillPreviews: [
         {
           name: '방어막(자신)',
@@ -50,8 +49,7 @@ const temp = {
       type: '패시브',
       name: '진정한 리더',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/b5/Commander_skill_Lead_the_Charge.png/revision/latest/scale-to-width-down/64?cb=20190722190843',
+      image: skillUrl + 'alexander_greate-skill-2.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -67,8 +65,7 @@ const temp = {
       type: '패시브',
       name: '활제 출정',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/4/4a/Commander_skill_Frontline_Commander.png/revision/latest/scale-to-width-down/64?cb=20190722190900',
+      image: skillUrl + 'alexander_greate-skill-3.png',
       skillPreviews: [
         {
           name: '보병 유닛 행군 속도 상승',
@@ -84,8 +81,7 @@ const temp = {
       type: '패시브',
       name: '카이로네이아',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/9/9a/Commander_skill_Battle_of_Chaeronea.png/revision/latest/scale-to-width-down/64?cb=20190722190914',
+      image: skillUrl + 'alexander_greate-skill-4.png',
       skillPreviews: [
         {
           name: '공격력 증가',
@@ -101,8 +97,7 @@ const temp = {
       type: '강화',
       name: '아문의 아들',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/6/63/Commander_skill_Son_of_Amun.png/revision/latest/scale-to-width-down/64?cb=20190722190925',
+      image: skillUrl + 'alexander_greate-skill-5.png',
       beforeAwakening:
         '즉시 대량의 피해를 흡수할 수 있는 방패를  생성합니다.(데미지 계수 1200, 4초간 지속) 동시에 원형 범위 내에 남은 병력이 백분율 기준 가장 적은 아군 부대(알렉산더 대왕 통솔 부대 포함)에게 소량의 피해를 흡수할 수 있는 방패를 생성해줍니다.(데미지 계수 600, 2초간 지속)', // 각성 전
       afterAwakening:

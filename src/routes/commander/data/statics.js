@@ -1,3 +1,7 @@
+export const commanderUrl = 'http://image.rok.gg/commander/';
+export const skillUrl = 'http://image.rok.gg/skill/';
+export const talentUrl = 'http://image.rok.gg/talent/';
+
 export const RANK_S_PLUS = 'S+';
 export const RANK_S = 'S';
 export const RANK_S_MINUS = 'S-';

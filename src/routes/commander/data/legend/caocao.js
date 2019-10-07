@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_A} from '../statics';
+import {RANK_A, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '조조';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '난세의 영웅',
-  image: 'http://image.rok.gg/commander/caocao.png',
+  image: commanderUrl + 'caocao.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A,
@@ -20,11 +20,11 @@ const temp = {
   talentTrees: [
     {
       title: '기마병',
-      image: 'https://www.gurugamer.ru/upload/000/u1/9/1/cao-cao.jpg',
+      image: talentUrl + 'caocao-cavalry.jpg',
     },
     {
       title: '이동성',
-      image: 'https://www.gurugamer.ru/upload/000/u1/e/4/cao-cao-mobility.jpg',
+      image: talentUrl + 'caocao-mobility.jpg',
     },
   ],
   pairs: {
@@ -36,7 +36,7 @@ const temp = {
       type: '액티브',
       name: '육룡승풍',
       description: '',
-      image: 'https://rok.guide/images/dragon-rider.png',
+      image: skillUrl + 'caocao-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -57,7 +57,7 @@ const temp = {
       type: '패시브',
       name: '청주병',
       description: '',
-      image: 'https://rok.guide/images/the-qingzhou-army.png',
+      image: skillUrl + 'caocao-skill-2.png',
       skillPreviews: [
         {
           name: '야만인에게 주는 피해량 증가',
@@ -69,7 +69,7 @@ const temp = {
       type: '패시브',
       name: '용맹한 말',
       description: '',
-      image: 'https://rok.guide/images/tiger-knight.png',
+      image: skillUrl + 'caocao-skill-3.png',
       skillPreviews: [
         {
           name: '기마병 행군 속도 증가',
@@ -85,7 +85,7 @@ const temp = {
       type: '패시브',
       name: '높은 야망',
       description: '',
-      image: 'https://rok.guide/images/lofty-ambition.png',
+      image: skillUrl + 'caocao-skill-4.png',
       skillPreviews: [
         {
           name: '치료량',
@@ -101,7 +101,7 @@ const temp = {
       type: '패시브',
       name: '위무제',
       description: '기마병 유닛의 공격력 25% 증가, 방어력이 10% 감소합니다.',
-      image: 'https://rok.guide/images/emperor-wo-of-wei.png',
+      image: skillUrl + 'caocao-skill-5.png',
       beforeAwakening: '', // 각성 전
       afterAwakening: '', // 각성 후
       target: '',

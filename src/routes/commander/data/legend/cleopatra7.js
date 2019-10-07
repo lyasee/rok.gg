@@ -1,11 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
+import {commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '클레오파트라 7세';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '이집트의 여왕',
-  image: 'http://image.rok.gg/commander/cleopatra7.png',
+  image: commanderUrl + 'cleopatra7.png',
   thumbnail: '',
   basePower: 1200,
   grade: '',
@@ -19,11 +20,11 @@ const temp = {
   talentTrees: [
     {
       title: '채집',
-      image: 'https://i.ytimg.com/vi/fJJP14oo870/maxresdefault.jpg',
+      image: talentUrl + 'cleopatra7-gat.jpg',
     },
     {
       title: '채집 공통',
-      image: 'https://everythingrok.com/wp-content/uploads/2019/03/Tookies-Gathering-101-Large-1.jpg',
+      image: talentUrl + 'gathering.jpg',
     },
   ],
   pairs: {
@@ -35,7 +36,7 @@ const temp = {
       type: '액티브',
       name: '만왕의 여왕',
       description: '',
-      image: 'https://rok.guide/images/queen-of-kings.png',
+      image: skillUrl + 'cleopatra7-skill-1.png',
       skillPreviews: [
         {
           name: '치료량',
@@ -52,7 +53,7 @@ const temp = {
       type: '패시브',
       name: '프톨레마이오스의 종식',
       description: '',
-      image: 'https://rok.guide/images/end-of-ptolemy.png',
+      image: skillUrl + 'cleopatra7-skill-2.png',
       skillPreviews: [
         {
           name: '석재 채집 속도 증가',
@@ -68,7 +69,7 @@ const temp = {
       type: '패시브',
       name: '경국지색',
       description: '',
-      image: 'https://rok.guide/images/beauty-of-wisdom.png',
+      image: skillUrl + 'cleopatra7-skill-3.png',
       skillPreviews: [
         {
           name: '적재량 증가',
@@ -80,7 +81,7 @@ const temp = {
       type: '패시브',
       name: '최후의 파라오',
       description: '',
-      image: 'https://rok.guide/images/the-last-pharaoh.png',
+      image: skillUrl + 'cleopatra7-skill-4.png',
       skillPreviews: [
         {
           name: '공성 유닛 공격력 증가',
@@ -96,7 +97,7 @@ const temp = {
       type: '패시브',
       name: '나일강의 선물',
       description: '클레오파트라가 지도상의 자원지에서 자원을 채집 시 자원 아이템을 추가 획득합니다.',
-      image: 'https://rok.guide/images/gifts-of-the-nile.png',
+      image: skillUrl + 'cleopatra7-skill-5.png',
       beforeAwakening: '', // 각성 전
       afterAwakening: '', // 각성 후
       target: '',

@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_A} from '../statics';
+import {RANK_A, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '한니발 바르카';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '카르타고의 수호자',
-  image: 'http://image.rok.gg/commander/hannibal_barca.png',
+  image: commanderUrl + 'hannibal_barca.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A,
@@ -20,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '종합',
-      image: 'https://www.gurugamer.ru/upload/000/u1/f/3/gannibal.jpg',
+      image: talentUrl + 'hannibal_barca-mix.jpg',
     },
   ],
   pairs: {
@@ -32,7 +32,7 @@ const temp = {
       type: '액티브',
       name: '카르타고 전투코끼리',
       description: '',
-      image: 'https://rok.guide/images/war-elephants.png',
+      image: skillUrl + 'hannibal_barca-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -53,7 +53,7 @@ const temp = {
       type: '패시브',
       name: '포위 전술',
       description: '',
-      image: 'https://rok.guide/images/envelopment-tactics.png',
+      image: skillUrl + 'hannibal_barca-skill-2.png',
       skillPreviews: [
         {
           name: '피해량 증가(2가지 유닛)',
@@ -69,7 +69,7 @@ const temp = {
       type: '패시브',
       name: '포위',
       description: '',
-      image: 'https://rok.guide/images/siege-skill.png',
+      image: skillUrl + 'hannibal_barca-skill-3.png',
       skillPreviews: [
         {
           name: '치료량',
@@ -81,7 +81,7 @@ const temp = {
       type: '패시브',
       name: '원정',
       description: '',
-      image: 'https://rok.guide/images/expedition.png',
+      image: skillUrl + 'hannibal_barca-skill-4.png',
       skillPreviews: [
         {
           name: '부대 인원 증가',
@@ -97,7 +97,7 @@ const temp = {
       type: '강화',
       name: '전투코끼리 돌격',
       description: '',
-      image: 'https://rok.guide/images/elephant-trample.png',
+      image: skillUrl + 'hannibal_barca-skill-5.png',
       beforeAwakening: '단일 타깃에 즉시 피해를 주고(피해량 400) 타깃이 5초 동안 주는 피해 25% 감소, 방어력이 25% 감소합니다.', // 각성 전
       afterAwakening:
         '단일 타깃에 즉시 피해를 주고(피해량 400) 전방의 타깃 3개에 다음 턴에 추가 피해를 줍니다.(피해량 300) 타깃 3개는 5초 동안 주는 피해 25% 감소, 방어력이 25% 감소합니다.', // 각성 후

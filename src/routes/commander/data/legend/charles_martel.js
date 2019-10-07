@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_S_MINUS} from '../statics';
+import {RANK_S_MINUS, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '카를 마르텔';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '불후한 해머',
-  image: 'http://image.rok.gg/commander/charles_martel.png',
+  image: commanderUrl + 'charles_martel.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S_MINUS,
@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '혼합 부대 운영시',
-      image: 'https://rok.guide/wp-content/uploads/2019/03/charles-martin-mixed-1024x576.jpg',
+      image: talentUrl + 'charles_martel-mix.jpg',
     },
     {
       title: '보병',
-      image: 'https://www.gurugamer.ru/upload/000/u1/0/3/martell-infantry.jpg',
+      image: talentUrl + 'charles_martel-bo.jpg',
     },
     {
       title: '주둔',
-      image: 'https://www.gurugamer.ru/upload/000/u1/f/7/martell-garnizon.jpg',
+      image: talentUrl + 'charles_martel-zu.jpg',
     },
   ],
   pairs: {
@@ -40,7 +40,7 @@ const temp = {
       type: '액티브',
       name: '프랑크의 방패',
       description: '',
-      image: 'https://rok.guide/images/shield-of-francia.png',
+      image: skillUrl + 'charles_martel-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -57,7 +57,7 @@ const temp = {
       type: '패시브',
       name: '중장보병',
       description: '',
-      image: 'https://rok.guide/images/heavy-infantry.png',
+      image: skillUrl + 'charles_martel-skill-2.png',
       skillPreviews: [
         {
           name: '보병 방어력 증가',
@@ -73,7 +73,7 @@ const temp = {
       type: '패시브',
       name: '무관의 제왕',
       description: '',
-      image: 'https://rok.guide/images/the-uncrowned-king.png',
+      image: skillUrl + 'charles_martel-skill-3.png',
       skillPreviews: [
         {
           name: '경계탑 방어력 증가',
@@ -89,7 +89,7 @@ const temp = {
       type: '패시브',
       name: '마르텔의 반격',
       description: '',
-      image: 'https://rok.guide/images/martel-counterattack.png',
+      image: skillUrl + 'charles_martel-skill-4.png',
       skillPreviews: [
         {
           name: '반격 피해량 증가',
@@ -101,7 +101,7 @@ const temp = {
       type: '강화',
       name: '욕화중생',
       description: '',
-      image: 'https://rok.guide/images/rise-from-the-ashes.png',
+      image: skillUrl + 'charles_martel-skill-5.png',
       beforeAwakening: '보병 유닛 방어력 15% 증가, 생명력의 15% 증가합니다.', // 각성 전
       afterAwakening: '보병 유닛의 방어력이 20% 증가, 생명력 20% 증가, 행군 속도가 20% 증가합니다.', // 각성 후
       target: '중장보병',

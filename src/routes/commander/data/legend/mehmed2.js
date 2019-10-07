@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_A} from '../statics';
+import {RANK_A, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '메흐메트 2세';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '이스탄불의 정복자',
-  image: 'http://image.rok.gg/commander/mehmed2.png',
+  image: commanderUrl + 'mehmed2.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A,
@@ -20,11 +20,11 @@ const temp = {
   talentTrees: [
     {
       title: 'PVP',
-      image: 'https://www.gurugamer.ru/upload/000/u1/0/1/mahmed-pvp.jpg',
+      image: talentUrl + 'mehmed2-pvp.jpg',
     },
     {
       title: '랠리',
-      image: 'https://www.gurugamer.ru/upload/000/u1/f/7/mahmed-rally-siege.jpg',
+      image: talentUrl + 'mehmed2-rally.jpg',
     },
   ],
   pairs: {
@@ -36,8 +36,7 @@ const temp = {
       type: '액티브',
       name: '오스만 대포',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/0/04/Commander_skill_Ottoman_Cannons.png/revision/latest/scale-to-width-down/64?cb=20190305094349',
+      image: skillUrl + 'mehmed2-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -54,8 +53,7 @@ const temp = {
       type: '패시브',
       name: '대지와 바다의 군주',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/1/1e/Commander_skill_Lord_of_Land_and_Sea.png/revision/latest/scale-to-width-down/64?cb=20190305094411',
+      image: skillUrl + 'mehmed2-skill-2.png',
       skillPreviews: [
         {
           name: '공격력 증가',
@@ -71,8 +69,7 @@ const temp = {
       type: '패시브',
       name: '파티흐',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/8c/Commander_skill_Faith.png/revision/latest/scale-to-width-down/64?cb=20190305095024',
+      image: skillUrl + 'mehmed2-skill-3.png',
       skillPreviews: [
         {
           name: '추가 피해량',
@@ -84,8 +81,7 @@ const temp = {
       type: '패시브',
       name: '성군',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/cd/Commander_skill_Sage_King.png/revision/latest/scale-to-width-down/64?cb=20190305095018',
+      image: skillUrl + 'mehmed2-skill-4.png',
       skillPreviews: [
         {
           name: '부대 인원 증가',
@@ -101,8 +97,7 @@ const temp = {
       type: '강화',
       name: '오르반 폭격',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/1/18/Commander_skill_Orban_Bombard.png/revision/latest/scale-to-width-down/64?cb=20190305094754',
+      image: skillUrl + 'mehmed2-skill-5.png',
       beforeAwakening:
         '정면 부채꼴 범위 내의 적에 피해를 줍니다.(피해량 1150, 최대 타깃 5개) 타깃이 추가될 때마다 각 타깃이 받는 피해는 15% 감소합니다. 해당 스킬은 도시 주둔 부대와 경계탑에 추가 피해를 줍니다.(피해량 700)', // 각성 전
       afterAwakening:

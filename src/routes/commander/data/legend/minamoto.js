@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_A_PLUS} from '../statics';
+import {RANK_A_PLUS, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '미나모토노 요시쓰네';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '가마쿠라의 군신',
-  image: 'http://image.rok.gg/commander/minamoto.png',
+  image: commanderUrl + 'minamoto.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A_PLUS,
@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '극딜',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/MINAMOTO_TALENTS_NUKER.jpg?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'minamoto-nuker.jpg',
     },
     {
       title: '기마병',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/MINAMOTO_TALENTS_CAVALRY.jpg?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'minamoto-gi.jpg',
     },
     {
       title: '극딜 + 레벨',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/03/MINAMOTO_TALENTS_NUKERLVLING.jpg?resize=%271024%2C577&ssl=1%27',
+      image: talentUrl + 'minamoto-level.jpg',
     },
   ],
   pairs: {
@@ -40,7 +40,7 @@ const temp = {
       type: '액티브',
       name: '경팔류',
       description: '',
-      image: 'https://rok.guide/images/kyohachiryu.png',
+      image: skillUrl + 'minamoto-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -57,7 +57,7 @@ const temp = {
       type: '패시브',
       name: '구라마데라 수행',
       description: '',
-      image: 'https://rok.guide/images/trial-in-kurama-dera.png',
+      image: skillUrl + 'minamoto-skill-2.png',
       skillPreviews: [
         {
           name: '기마병 행군 속도 증가',
@@ -73,7 +73,7 @@ const temp = {
       type: '패시브',
       name: '검도의 고수',
       description: '',
-      image: 'https://rok.guide/images/master-of-kendo.png',
+      image: skillUrl + 'minamoto-skill-3.png',
       skillPreviews: [
         {
           name: '야만인에게 주는 피해량 증가',
@@ -85,7 +85,7 @@ const temp = {
       type: '패시브',
       name: '명장',
       description: '',
-      image: 'https://rok.guide/images/warlord.png',
+      image: skillUrl + 'minamoto-skill-4.png',
       skillPreviews: [
         {
           name: '받은 피해량 증가',
@@ -97,7 +97,7 @@ const temp = {
       type: '강화',
       name: '경팔류·극',
       description: '',
-      image: 'https://rok.guide/images/kyohachiryu-kiwami.png',
+      image: skillUrl + 'minamoto-skill-5.png',
       beforeAwakening: '타깃에 즉시 피해를 주고 50%의 확률로 2초 동안 초당 추가 피해를 줍니다.', // 각성 전
       afterAwakening: '타깃에 즉시 피해를 주고 75%의 확률로 2초 동안 초당 추가 피해를 줍니다.', // 각성 후
       target: '경팔류',

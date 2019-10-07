@@ -1,11 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
+import {RANK_S, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '선덕';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '신라의 왕',
-  image: 'http://image.rok.gg/commander/seondeok.png',
+  image: commanderUrl + 'seondeok.png',
   thumbnail: '',
   basePower: 1200,
   grade: '',
@@ -19,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '채집 공통',
-      image: 'https://everythingrok.com/wp-content/uploads/2019/03/Tookies-Gathering-101-Large-1.jpg',
+      image: talentUrl + 'gathering.jpg',
     },
   ],
   pairs: {

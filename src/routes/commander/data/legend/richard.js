@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_S_MINUS} from '../statics';
+import {RANK_S_MINUS, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '리처드 1세';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '사자심왕',
-  image: 'http://image.rok.gg/commander/richard1.png',
+  image: commanderUrl + 'richard1.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S_MINUS,
@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '보병',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/04/RICHARD_I_INFANTRY.jpg?w=%27900&ssl=1%27',
+      image: talentUrl + 'richard1-bo.jpg',
     },
     {
       title: '주둔',
-      image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/04/RICHARD_I_GARRISON.jpg?w=%27900&ssl=1%27',
+      image: talentUrl + 'richard1-zu.jpg',
     },
     {
       title: '종합',
-      image: 'https://i1.wp.com/everythingrok.com/wp-content/uploads/2019/04/RICHARD_I_MIXED.jpg?w=%27900&ssl=1%27',
+      image: talentUrl + 'richard1-mix.jpg',
     },
   ],
   pairs: {
@@ -40,7 +40,7 @@ const temp = {
       type: '액티브',
       name: '십자군의 혼',
       description: '',
-      image: 'https://rok.guide/images/soul-of-the-crusaders.png',
+      image: skillUrl + 'richard1-skill-1.png',
       skillPreviews: [
         {
           name: '치료량',
@@ -61,7 +61,7 @@ const temp = {
       type: '패시브',
       name: '기사도 정신',
       description: '',
-      image: 'https://rok.guide/images/chivalry.png',
+      image: skillUrl + 'richard1-skill-2.png',
       skillPreviews: [
         {
           name: '받은 피해량 감소',
@@ -77,7 +77,7 @@ const temp = {
       type: '패시브',
       name: '사자심왕',
       description: '',
-      image: 'https://rok.guide/images/the-lionheart.png',
+      image: skillUrl + 'richard1-skill-3.png',
       skillPreviews: [
         {
           name: '보병 공격력 증가',
@@ -93,7 +93,7 @@ const temp = {
       type: '패시브',
       name: '역전의 신체',
       description: '',
-      image: 'https://rok.guide/images/battle-hardened.png',
+      image: skillUrl + 'richard1-skill-4.png',
       skillPreviews: [
         {
           name: '치료 효과 증가',
@@ -109,7 +109,7 @@ const temp = {
       type: '패시브',
       name: '잔혹한 사자',
       description: '부대가 받는 피해 5% 감소, 통솔 보병 유닛이 기마병 유닛에게 주는 피해  2% 증가, 10초마다 5초 동안 타깃의 행군 속도가 50% 감소합니다.',
-      image: 'https://rok.guide/images/tyrannical-lion.png',
+      image: skillUrl + 'richard1-skill-5.png',
       beforeAwakening: '', // 각성 전
       afterAwakening: '', // 각성 후
       target: '',
