@@ -6,7 +6,7 @@ const COMMANDER_NAME = '콘스탄티누스 1세';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '비할 데 없는 군주',
-  image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/b/bc/Constantine_I.png/revision/latest/scale-to-width-down/305?cb=20190217114020',
+  image: 'http://image.rok.gg/commander/constantine1.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_B_PLUS,

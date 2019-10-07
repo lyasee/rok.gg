@@ -6,7 +6,7 @@ const COMMANDER_NAME = '리처드 1세';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '사자심왕',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/richard-i-259x300.png',
+  image: 'http://image.rok.gg/commander/richard1.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S_MINUS,

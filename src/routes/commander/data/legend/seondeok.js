@@ -5,7 +5,7 @@ const COMMANDER_NAME = '선덕';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '신라의 왕',
-  image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/1/10/Seondeok.png/revision/latest/scale-to-width-down/74?cb=20190926195853',
+  image: 'http://image.rok.gg/commander/seondeok.png',
   thumbnail: '',
   basePower: 1200,
   grade: '',

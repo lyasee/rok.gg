@@ -5,7 +5,7 @@ const COMMANDER_NAME = '칭기즈칸';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '최초의 카간',
-  image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/e/e3/Genghis_Khan.png/revision/latest/scale-to-width-down/310?cb=20190505172506',
+  image: 'http://image.rok.gg/commander/genghis_khan.png',
   thumbnail: '',
   basePower: 1200,
   grade: '',

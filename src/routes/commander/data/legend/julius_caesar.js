@@ -6,7 +6,7 @@ const COMMANDER_NAME = '율리우스 카이사르';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '무관의 제왕',
-  image: 'https://rok.guide/wp-content/uploads/2018/12/rise-of-civilizations-julius-caesar-274x300.png',
+  image: 'http://image.rok.gg/commander/julius_caesar.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A,

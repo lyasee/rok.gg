@@ -6,7 +6,7 @@ const COMMANDER_NAME = '바이바르스';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '정복의 아버지',
-  image: 'https://rok.guide/wp-content/uploads/2019/04/baibars-rise-of-kingdoms-122x300.png',
+  image: 'http://image.rok.gg/commander/baibars.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C_PLUS,

@@ -6,7 +6,7 @@ const COMMANDER_NAME = '로하';
 const lohar = {
   name: COMMANDER_NAME,
   nickname: '야만인의 포효',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/lohar-238x300.png',
+  image: 'http://image.rok.gg/commander/lohar.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_D,

@@ -6,8 +6,7 @@ const COMMANDER_NAME = '알렉산더 대왕';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '세계 정복자',
-  image:
-    'https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/2f/Alexander_the_Great.png/revision/latest/scale-to-width-down/270?cb=20190711155059',
+  image: 'http://image.rok.gg/commander/alexander_greate.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S_PLUS,

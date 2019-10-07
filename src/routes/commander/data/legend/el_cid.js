@@ -6,7 +6,7 @@ const COMMANDER_NAME = '엘 시드';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '신성의 영주',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/el-cid-223x300.png',
+  image: 'http://image.rok.gg/commander/el_cid.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S_MINUS,

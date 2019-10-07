@@ -6,7 +6,7 @@ const COMMANDER_NAME = '토모에 고젠';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '낙양의 미인',
-  image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/87/Tomoe_Gozen.png/revision/latest/scale-to-width-down/310?cb=20181107165303',
+  image: 'http://image.rok.gg/commander/tomoe_gozen.png',
   thumbnail: '',
   basePower: 600,
   grade: '',

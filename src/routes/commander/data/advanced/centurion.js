@@ -5,7 +5,7 @@ const COMMANDER_NAME = '백부장';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '독수리의 날개',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/centurion-226x300.png',
+  image: 'http://image.rok.gg/commander/centurion.png',
   thumbnail: '',
   basePower: 150,
   grade: '',

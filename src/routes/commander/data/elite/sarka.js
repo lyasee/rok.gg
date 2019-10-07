@@ -5,7 +5,7 @@ const COMMANDER_NAME = '샤르카';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '죽음의 밀주',
-  image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/0/02/%C5%A0%C3%A1rka.png/revision/latest/scale-to-width-down/250?cb=20181107165217',
+  image: 'http://image.rok.gg/commander/sarka.png',
   thumbnail: '',
   basePower: 300,
   grade: '',

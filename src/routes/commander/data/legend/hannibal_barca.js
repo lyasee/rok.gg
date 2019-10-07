@@ -6,7 +6,7 @@ const COMMANDER_NAME = '한니발 바르카';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '카르타고의 수호자',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/hannibal-barca-136x300.png',
+  image: 'http://image.rok.gg/commander/hannibal_barca.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A,

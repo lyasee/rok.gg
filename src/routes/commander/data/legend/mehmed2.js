@@ -6,7 +6,7 @@ const COMMANDER_NAME = '메흐메트 2세';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '이스탄불의 정복자',
-  image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/80/Mehmed_II.png/revision/latest/scale-to-width-down/278?cb=20190217114048',
+  image: 'http://image.rok.gg/commander/mehmed2.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A,

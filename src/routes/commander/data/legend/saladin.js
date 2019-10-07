@@ -6,7 +6,7 @@ const COMMANDER_NAME = '살라딘';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '알 말리크 안 나시르',
-  image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/2/2d/Saladin.png/revision/latest/scale-to-width-down/247?cb=20190217114036',
+  image: 'http://image.rok.gg/commander/saladin.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S,

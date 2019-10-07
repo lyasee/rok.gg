@@ -6,7 +6,7 @@ const COMMANDER_NAME = '헤르만';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '토이토부르크의 해방자',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/hermann-199x300.png',
+  image: 'http://image.rok.gg/commander/hermann.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C,

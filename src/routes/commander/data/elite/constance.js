@@ -5,7 +5,7 @@ const COMMANDER_NAME = '쿠스탄차';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '시칠리아 여왕',
-  image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/cb/Constance.png/revision/latest/scale-to-width-down/240?cb=20181107165336',
+  image: 'http://image.rok.gg/commander/constance.png',
   thumbnail: '',
   basePower: 300,
   grade: '',

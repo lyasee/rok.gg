@@ -6,7 +6,7 @@ const COMMANDER_NAME = '구스노키 마사시게';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '무사도의 혼',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/kusunoki-masashige-187x300.png',
+  image: 'http://image.rok.gg/commander/kusunoki_masashige.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_B,

@@ -6,7 +6,7 @@ const COMMANDER_NAME = '이성계';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '변혁의 활',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/yi-seong-gye-225x300.png',
+  image: 'http://image.rok.gg/commander/yi_seong_gye.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S,

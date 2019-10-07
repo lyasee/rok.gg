@@ -6,7 +6,7 @@ const COMMANDER_NAME = '미나모토노 요시쓰네';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '가마쿠라의 군신',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/minamoto-no-yoshitsune-177x300.png',
+  image: 'http://image.rok.gg/commander/minamoto.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A_PLUS,

@@ -6,7 +6,7 @@ const COMMANDER_NAME = '펠라기우스';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '빼어난 부흥자',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/pelagius-199x300.png',
+  image: 'http://image.rok.gg/commander/pelagius.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_B_MINUS,

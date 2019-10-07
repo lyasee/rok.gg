@@ -5,7 +5,7 @@ const COMMANDER_NAME = '클레오파트라 7세';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '이집트의 여왕',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/cleopatra-96x300.png',
+  image: 'http://image.rok.gg/commander/cleopatra7.png',
   thumbnail: '',
   basePower: 1200,
   grade: '',

@@ -6,7 +6,7 @@ const COMMANDER_NAME = '잔 다르크';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '오를레앙의 성처녀',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/joan-of-arc-179x300.png',
+  image: 'http://image.rok.gg/commander/joan_of_arc.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C_PLUS,

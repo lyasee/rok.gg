@@ -6,7 +6,7 @@ const COMMANDER_NAME = '조조';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '난세의 영웅',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/cao-cao-300x285.png',
+  image: 'http://image.rok.gg/commander/caocao.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A,

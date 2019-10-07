@@ -6,7 +6,7 @@ const COMMANDER_NAME = '오스만 1세';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '제국의 개척자',
-  image: 'https://i2.wp.com/everythingrok.com/wp-content/uploads/2019/03/Osman.png?fit=600%2C650&ssl=1',
+  image: 'http://image.rok.gg/commander/osman1.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C,

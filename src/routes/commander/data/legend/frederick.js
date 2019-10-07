@@ -6,7 +6,7 @@ const COMMANDER_NAME = '프리드리히 1세';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '빨간 수염',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/frederick-1-1-228x300.png',
+  image: 'http://image.rok.gg/commander/frederick1.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_A,

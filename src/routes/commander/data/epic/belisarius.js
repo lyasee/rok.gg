@@ -6,7 +6,7 @@ const COMMANDER_NAME = '벨리사리우스';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '최후의 로마인',
-  image: 'https://vignette.wikia.nocookie.net/riseofcivilizations/images/c/c2/Belisarius.png/revision/latest/scale-to-width-down/258?cb=20190217114119',
+  image: 'http://image.rok.gg/commander/belisarius.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C,

@@ -5,7 +5,7 @@ const COMMANDER_NAME = '가이우스 마리우스';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '군단 변혁가',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/gaius-marius-172x300.png',
+  image: 'http://image.rok.gg/commander/gaius_marius.png',
   thumbnail: '',
   basePower: 300,
   grade: '',

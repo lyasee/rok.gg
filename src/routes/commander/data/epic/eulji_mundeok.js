@@ -6,7 +6,7 @@ const COMMANDER_NAME = '을지문덕';
 const eulji_mundeok = {
   name: COMMANDER_NAME,
   nickname: '무장의 풍모',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/eulji-mundeok-216x300.png',
+  image: 'http://image.rok.gg/commander/eulji_mundeok.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_B_MINUS,

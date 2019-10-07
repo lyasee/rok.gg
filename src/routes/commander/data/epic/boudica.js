@@ -6,7 +6,7 @@ const COMMANDER_NAME = '부디카';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '켈트의 장미',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/boudica-294x300.png',
+  image: 'http://image.rok.gg/commander/boudica.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C_PLUS,

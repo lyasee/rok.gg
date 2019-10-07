@@ -6,7 +6,7 @@ const COMMANDER_NAME = '손무';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '하늘의 인재',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/sun-tzu-2-207x300.png',
+  image: 'http://image.rok.gg/commander/sun_tzu.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_A_MINUS,

@@ -6,7 +6,7 @@ const COMMANDER_NAME = '스키피오';
 const scipio = {
   name: COMMANDER_NAME,
   nickname: '전쟁의 칼날',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/scipio-africanus-267x300.png',
+  image: 'http://image.rok.gg/commander/scipio.png',
   thumbnail: 'https://everythingrok.com/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/Scipio%20(1).png?x23056&bwg=1552671848',
   basePower: 600,
   grade: RANK_C_MINUS,

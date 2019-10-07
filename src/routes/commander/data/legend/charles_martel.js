@@ -6,7 +6,7 @@ const COMMANDER_NAME = '카를 마르텔';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '불후한 해머',
-  image: 'https://rok.guide/wp-content/uploads/2019/02/charles-martel-264x300.png',
+  image: 'http://image.rok.gg/commander/charles_martel.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S_MINUS,
