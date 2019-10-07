@@ -19,12 +19,12 @@ const temp = {
   },
   talentTrees: [
     {
-      title: '채집',
-      image: talentUrl + 'joan_of_arc-gat.jpg',
+      title: '서포터',
+      image: talentUrl + 'joan_of_arc-arc.jpg',
     },
     {
-      title: '지원',
-      image: talentUrl + 'joan_of_arc-arc.jpg',
+      title: '채집 공통',
+      image: talentUrl + 'kor/gathering-kor.jpeg',
     },
   ],
   pairs: {

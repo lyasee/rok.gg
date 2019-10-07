@@ -1,5 +1,5 @@
 const gathering = [
-  {primary: '샤르카(석재)', secondary: '클레오파트라', rank: 1},
+  {primary: '샤르카(석재)', secondary: '클레오파트라 7세', rank: 1},
   {primary: '샤르카(석재)', secondary: '채집 영웅', rank: 2},
   {primary: '쿠스탄차(목재)', secondary: '백부장', rank: 1},
   {primary: '쿠스탄차(목재)', secondary: '채집 영웅', rank: 2},

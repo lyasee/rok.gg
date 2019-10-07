@@ -20,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '채집 공통',
-      image: talentUrl + 'gathering.jpg',
+      image: talentUrl + 'kor/gathering-kor.jpeg',
     },
   ],
   pairs: {
