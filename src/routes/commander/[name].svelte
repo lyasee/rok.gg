@@ -214,7 +214,7 @@
         <h4>부사령관</h4>
         {#each commander.pairs.secondary as pair}
           <div style="padding: 8px 0; widht: 100%">
-            <span>{pair.rank}등</span>
+            <span>{pair.rank}티어</span>
             <span>{' - '}</span>
             <span>{pair.primary}</span>
             <span>{' - '}</span>

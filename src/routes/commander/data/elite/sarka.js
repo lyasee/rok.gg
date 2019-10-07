@@ -18,8 +18,8 @@ const temp = {
   },
   talentTrees: [
     {
-      title: '채집',
-      image: 'https://rok.guide/wp-content/uploads/2019/03/gatherer-1024x741.png',
+      title: '채집 공통',
+      image: 'https://everythingrok.com/wp-content/uploads/2019/03/Tookies-Gathering-101-Large-1.jpg',
     },
   ],
   pairs: {

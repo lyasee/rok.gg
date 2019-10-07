@@ -1,4 +1,13 @@
-const gathering = [{primary: '샤르카', secondary: '채집 영웅', rank: 1}, {primary: '쿠스탄차', secondary: '채집 영웅', rank: 1}];
+const gathering = [
+  {primary: '샤르카(석재)', secondary: '클레오파트라', rank: 1},
+  {primary: '샤르카(석재)', secondary: '채집 영웅', rank: 2},
+  {primary: '쿠스탄차(목재)', secondary: '백부장', rank: 1},
+  {primary: '쿠스탄차(목재)', secondary: '채집 영웅', rank: 1},
+  {primary: '백부장(목재)', secondary: '채집 영웅', rank: 1},
+  {primary: '가이우스 마리우스(식량)', secondary: '잔 다르크', rank: 1},
+  {primary: '가이우스 마리우스(식량)', secondary: '채집 영웅', rank: 1},
+  {primary: '선덕(금화)', secondary: '채집 영웅', rank: 1},
+];
 
 export default [
   {primary: '바이바르스', secondary: '손무', rank: 4},
@@ -80,7 +89,7 @@ export default [
   {primary: '이성계', secondary: '헤르만', rank: 1},
   {primary: '이성계', secondary: '조조', rank: 4},
   {primary: '이성계', secondary: '토모에 고젠', rank: 4},
-  {primary: '발 바르카', secondary: '율리우스 카이사르', rank: 1},
+  {primary: '한니발 바르카', secondary: '율리우스 카이사르', rank: 1},
   {primary: '한니발 바르카', secondary: '스키피오', rank: 2},
   {primary: '한니발 바르카', secondary: '프리드리히 1세', rank: 1},
   {primary: '한니발 바르카', secondary: '잔 다르크', rank: 3},

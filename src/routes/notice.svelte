@@ -114,7 +114,7 @@
       특성이 안찍혀있을수록 좋습니다. 하지만 특성이 찍혀있어도 괜찮습니다.
       <br />
     </p>
-    <img src="https://user-images.githubusercontent.com/18377818/66270810-75c19180-e892-11e9-88c3-5ca5610bb184.jpg" alt="base" width="100%" />
+    <img src="https://user-images.githubusercontent.com/18377818/66271992-1158ff00-e89f-11e9-90c1-fbb1e5bdcef1.jpeg" alt="base" width="100%" />
     <br />
     <p>필요 사령관 목록</p>
   </div>

@@ -56,6 +56,16 @@ import tomoe_gozen from './data/elite/tomoe_gozen';
 import sarka from './data/elite/sarka';
 import constance from './data/elite/constance';
 
-const commanders = legends.concat(epics).concat(constance, sarka, tomoe_gozen);
+const elites = [constance, sarka, tomoe_gozen];
+
+// 우수 사령관
+import centurion from './data/advanced/centurion';
+
+const advanceds = [centurion];
+
+const commanders = legends
+  .concat(epics)
+  .concat(elites)
+  .concat(advanceds);
 
 export default commanders;
