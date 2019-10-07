@@ -1,8 +1,8 @@
-export const commanderUrl = 'http://image.rok.gg/commander/';
-export const skillUrl = 'http://image.rok.gg/skill/';
+export const commanderUrl = 'images/commander/';
+export const skillUrl = 'images/skill/';
 export const talentUrl = 'http://image.rok.gg/talent/';
-export const nationUrl = 'http://image.rok.gg/nation/';
-export const specificityUrl = 'http://image.rok.gg/specificity/';
+export const nationUrl = 'images/nation/';
+export const specificityUrl = 'images/specificity/';
 
 export const RANK_S_PLUS = 'S+';
 export const RANK_S = 'S';
