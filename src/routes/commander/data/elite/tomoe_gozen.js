@@ -1,12 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-// import {RANK_C_PLUS} from '../statics';
+import {commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '토모에 고젠';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '낙양의 미인',
-  image: 'http://image.rok.gg/commander/tomoe_gozen.png',
+  image: commanderUrl + 'tomoe_gozen.png',
   thumbnail: '',
   basePower: 600,
   grade: '',
@@ -20,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '유틸',
-      image: 'https://i0.wp.com/rocvn.com/wp-content/uploads/2018/10/54433372_261400134808599_2708997531861254144_o-1024x576.jpg?resize=700%2C394',
+      image: talentUrl + 'tomoe_gozen-util.jpg',
     },
   ],
   pairs: {
@@ -32,8 +32,7 @@ const temp = {
       type: '액티브',
       name: '피의 벚꽃',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/3/36/Commander_skill_Blood_Sakura.png/revision/latest/scale-to-width-down/64?cb=20181120191651',
+      image: skillUrl + 'tomoe_gozen-skill-1.png',
       skillPreviews: [
         {
           name: '공격력 증가',
@@ -46,8 +45,7 @@ const temp = {
       type: '패시브',
       name: '신궁',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d5/Commander_skill_Divine_Bow.png/revision/latest/scale-to-width-down/64?cb=20181120191659',
+      image: skillUrl + 'tomoe_gozen-skill-2.png',
       skillPreviews: [
         {
           name: '궁병 공격력 증가',
@@ -63,8 +61,7 @@ const temp = {
       type: '패시브',
       name: '난세의 미인',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/f/f4/Commander_skill_Beauty_in_Chaos.png/revision/latest/scale-to-width-down/64?cb=20181120191708',
+      image: skillUrl + 'tomoe_gozen-skill-3.png',
       skillPreviews: [
         {
           name: '분노 회복',
@@ -80,8 +77,7 @@ const temp = {
       type: '패시브',
       name: '영원한 사랑',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/d/d1/Commander_skill_Eternal_Love.png/revision/latest/scale-to-width-down/64?cb=20181120191716',
+      image: skillUrl + 'tomoe_gozen-skill-4.png',
       skillPreviews: [
         {
           name: '피해량 감소',

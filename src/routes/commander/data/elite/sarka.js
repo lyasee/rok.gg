@@ -1,11 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
+import {commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '샤르카';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '죽음의 밀주',
-  image: 'http://image.rok.gg/commander/sarka.png',
+  image: commanderUrl + 'sarka.png',
   thumbnail: '',
   basePower: 300,
   grade: '',
@@ -19,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '채집 공통',
-      image: 'https://everythingrok.com/wp-content/uploads/2019/03/Tookies-Gathering-101-Large-1.jpg',
+      image: talentUrl + 'gathering.jpg',
     },
   ],
   pairs: {
@@ -31,8 +32,7 @@ const temp = {
       type: '액티브',
       name: '유혹',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/5/5c/Commander_skill_Enchantment.png/revision/latest/scale-to-width-down/64?cb=20181120191425',
+      image: skillUrl + 'sarka-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -49,8 +49,7 @@ const temp = {
       type: '패시브',
       name: '처녀의 전쟁',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/8/8b/Commander_skill_The_Maidens%27_War.png/revision/latest/scale-to-width-down/64?cb=20181120191431',
+      image: skillUrl + 'sarka-skill-2.png',
       skillPreviews: [
         {
           name: '채집 속도 증가',
@@ -62,8 +61,7 @@ const temp = {
       type: '패시브',
       name: '잃어버린 보물',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/a/a0/Commander_skill_Lost_Treasure.png/revision/latest/scale-to-width-down/64?cb=20181120191512',
+      image: skillUrl + 'sarka-skill-3.png',
       skillPreviews: [
         {
           name: '적재량 증가',
@@ -75,8 +73,7 @@ const temp = {
       type: '패시브',
       name: '단명의 여걸',
       description: '',
-      image:
-        'https://vignette.wikia.nocookie.net/riseofcivilizations/images/4/49/Commander_skill_Short-lived_Heroine.png/revision/latest/scale-to-width-down/64?cb=20181120191521',
+      image: skillUrl + 'sarka-skill-4.png',
       skillPreviews: [
         {
           name: '부대 인원 증가',

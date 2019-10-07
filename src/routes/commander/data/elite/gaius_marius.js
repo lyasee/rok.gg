@@ -1,11 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
+import {commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '가이우스 마리우스';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '군단 변혁가',
-  image: 'http://image.rok.gg/commander/gaius_marius.png',
+  image: commanderUrl + 'gaius_marius.png',
   thumbnail: '',
   basePower: 300,
   grade: '',
@@ -19,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '채집 공통',
-      image: 'https://everythingrok.com/wp-content/uploads/2019/03/Tookies-Gathering-101-Large-1.jpg',
+      image: talentUrl + 'gathering.jpg',
     },
   ],
   pairs: {
@@ -31,7 +32,7 @@ const temp = {
       type: '액티브',
       name: '이탈리아의 구세주',
       description: '',
-      image: 'https://rok.guide/images/savior-of-italy.png',
+      image: skillUrl + 'gaius_marius-skill-1.png',
       skillPreviews: [
         {
           name: '치료량',
@@ -52,7 +53,7 @@ const temp = {
       type: '패시브',
       name: '제국의 창시자',
       description: '',
-      image: 'https://rok.guide/images/founder-of-empire.png',
+      image: skillUrl + 'gaius_marius-skill-2.png',
       skillPreviews: [
         {
           name: '식량 채집 속도 증가',
@@ -68,7 +69,7 @@ const temp = {
       type: '패시브',
       name: '마리우스의 개혁',
       description: '',
-      image: 'https://rok.guide/images/marius-reform.png',
+      image: skillUrl + 'gaius_marius-skill-3.png',
       skillPreviews: [
         {
           name: '적재량 증가',
@@ -80,7 +81,7 @@ const temp = {
       type: '패시브',
       name: '누미디아의 정복자',
       description: '',
-      image: 'https://rok.guide/images/marius-reform.png',
+      image: skillUrl + 'gaius_marius-skill-4.png',
       skillPreviews: [
         {
           name: '공성 유닛 행군 속도 증가',

@@ -1,11 +1,12 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
+import {commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '백부장';
 
 const temp = {
   name: COMMANDER_NAME,
   nickname: '독수리의 날개',
-  image: 'http://image.rok.gg/commander/centurion.png',
+  image: commanderUrl + 'centurion.png',
   thumbnail: '',
   basePower: 150,
   grade: '',
@@ -19,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '채집 공통',
-      image: 'https://everythingrok.com/wp-content/uploads/2019/03/Tookies-Gathering-101-Large-1.jpg',
+      image: talentUrl + 'gathering.jpg',
     },
   ],
   pairs: {
@@ -31,7 +32,7 @@ const temp = {
       type: '액티브',
       name: '혈전',
       description: '',
-      image: 'https://rok.guide/images/bloody-battle.png',
+      image: skillUrl + 'centurion-skill-1.png',
       skillPreviews: [
         {
           name: '즉시 피해량',
@@ -44,7 +45,7 @@ const temp = {
       type: '패시브',
       name: '격앙',
       description: '',
-      image: 'https://rok.guide/images/excitement.png',
+      image: skillUrl + 'centurion-skill-2.png',
       skillPreviews: [
         {
           name: '방어력 증가',
@@ -56,7 +57,7 @@ const temp = {
       type: '패시브',
       name: '군대 관리',
       description: '',
-      image: 'https://rok.guide/images/army-management.png',
+      image: skillUrl + 'centurion-skill-3.png',
       skillPreviews: [
         {
           name: '채집 속도 증가',
@@ -72,7 +73,7 @@ const temp = {
       type: '패시브',
       name: '용감한 전사',
       description: '',
-      image: 'https://rok.guide/images/couurageous-fighter.png',
+      image: skillUrl + 'centurion-skill-4.png',
       skillPreviews: [
         {
           name: '부대 인원 증가',
