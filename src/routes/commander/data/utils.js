@@ -85,9 +85,9 @@ export const getNationImage = nation => {
 };
 
 export const getPrimaryPairs = commander => {
-  return paris.filter(v => v.primary === commander).sort((a, b) => a.rank - b.rank);
+  return paris.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
 };
 
 export const getSecondaryPairs = commander => {
-  return paris.filter(v => v.secondary === commander).sort((a, b) => a.rank - b.rank);
+  return paris.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
 };
