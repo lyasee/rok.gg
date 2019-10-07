@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '극딜',
-      image: talentUrl + 'kusunoki_masashige-nuker.png',
+      image: talentUrl + 'kor/kusunoki_masashige-nuker.jpg',
     },
     {
       title: '주둔',
-      image: talentUrl + 'kusunoki_masashige-zu.png',
+      image: talentUrl + 'kor/kusunoki_masashige-zu.jpg',
     },
     {
       title: '궁병',
-      image: talentUrl + 'kusunoki_masashige-arc.png',
+      image: talentUrl + 'kor/kusunoki_masashige-arc.jpg',
     },
   ],
   pairs: {

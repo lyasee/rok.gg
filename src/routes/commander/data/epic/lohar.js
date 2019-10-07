@@ -20,7 +20,7 @@ const lohar = {
   talentTrees: [
     {
       title: '종합',
-      image: talentUrl + 'lohar-mix.png',
+      image: talentUrl + 'kor/lohar-mix.jpg',
     },
   ],
   pairs: {

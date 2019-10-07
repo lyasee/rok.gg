@@ -20,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: 'PVP',
-      image: talentUrl + 'osman1-pvp.png',
+      image: talentUrl + 'kor/osman1-pvp.jpg',
     },
   ],
   pairs: {

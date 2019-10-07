@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '극딜',
-      image: talentUrl + 'hermann-nuker.png',
+      image: talentUrl + 'kor/hermann-nuker.jpg',
     },
     {
       title: '주둔',
-      image: talentUrl + 'hermann-zu.png',
+      image: talentUrl + 'kor/hermann-zu.jpg',
     },
     {
       title: '궁병',
-      image: talentUrl + 'hermann-arc.png',
+      image: talentUrl + 'kor/hermann-arc.jpg',
     },
   ],
   pairs: {

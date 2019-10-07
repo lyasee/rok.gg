@@ -20,7 +20,7 @@ const scipio = {
   talentTrees: [
     {
       title: '종합 특성트리',
-      image: talentUrl + 'scipio-mix.png',
+      image: talentUrl + 'kor/scipio-mix.jpg',
     },
     {
       title: '반복 전투',

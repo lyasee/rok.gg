@@ -20,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '종합',
-      image: talentUrl + 'boudica-mix.png',
+      image: talentUrl + 'kor/boudica-mix.jpg',
     },
   ],
   pairs: {

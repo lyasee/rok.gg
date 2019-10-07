@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '극딜',
-      image: talentUrl + 'sun_tzu-nuker.png',
+      image: talentUrl + 'kor/sun_tzu-nuker.jpg',
     },
     {
       title: '주둔',
-      image: talentUrl + 'sun_tzu-zu.png',
+      image: talentUrl + 'kor/sun_tzu-zu.jpg',
     },
     {
       title: '보병',
-      image: talentUrl + 'sun_tzu-bo.png',
+      image: talentUrl + 'kor/sun_tzu-bo.jpg',
     },
   ],
   pairs: {

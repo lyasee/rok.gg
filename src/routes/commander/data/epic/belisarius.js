@@ -20,11 +20,11 @@ const temp = {
   talentTrees: [
     {
       title: '기마병',
-      image: talentUrl + 'belisarius-gi.png',
+      image: talentUrl + 'kor/belisarius-gi.jpg',
     },
     {
       title: '이동성',
-      image: talentUrl + 'belisarius-mo.png',
+      image: talentUrl + 'kor/belisarius-mo.jpg',
     },
   ],
   pairs: {

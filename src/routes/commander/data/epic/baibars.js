@@ -20,11 +20,11 @@ const temp = {
   talentTrees: [
     {
       title: '극딜',
-      image: talentUrl + 'baibars-nuker.png',
+      image: talentUrl + 'kor/baibars-nuker.jpg',
     },
     {
       title: '기마병',
-      image: talentUrl + 'baibars-gi.png',
+      image: talentUrl + 'kor/baibars-gi.jpg',
     },
   ],
   pairs: {

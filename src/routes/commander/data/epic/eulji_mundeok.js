@@ -24,7 +24,7 @@ const eulji_mundeok = {
     },
     {
       title: '주둔지',
-      image: talentUrl + 'eulji_mundeok-zu.jpg',
+      image: talentUrl + 'kor/eulji_mundeok-zu.jpg',
     },
   ],
   pairs: {

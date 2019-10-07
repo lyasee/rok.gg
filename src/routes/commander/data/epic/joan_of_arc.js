@@ -20,11 +20,11 @@ const temp = {
   talentTrees: [
     {
       title: '서포터',
-      image: talentUrl + 'joan_of_arc-arc.jpg',
+      image: talentUrl + 'kor/joan_of_arc-sp.jpg',
     },
     {
       title: '채집 공통',
-      image: talentUrl + 'kor/gathering-kor.jpeg',
+      image: talentUrl + 'kor/joan_of_arc-gat.jpg',
     },
   ],
   pairs: {
