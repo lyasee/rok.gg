@@ -20,7 +20,7 @@ const temp = {
   talentTrees: [
     {
       title: '혼합 부대 운영시',
-      image: 'hhttps://rok.guide/wp-content/uploads/2019/03/charles-martin-mixed-1024x576.jpg',
+      image: 'https://rok.guide/wp-content/uploads/2019/03/charles-martin-mixed-1024x576.jpg',
     },
     {
       title: '보병',
