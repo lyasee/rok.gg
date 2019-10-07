@@ -92,6 +92,10 @@
   </div>
 
   <div style="position: absolute; top: 4px; right: 8px;">
-    <span style="color: #fff; font-weight: bold; font-size: 24px;">{grade === '' ? '-' : grade}</span>
+    {#if specialties.yellow === '채집'}
+      <span style="color: #fff; font-weight: bold; font-size: 17px;">채집</span>
+    {:else}
+      <span style="color: #fff; font-weight: bold; font-size: 24px;">{grade === '' ? '-' : grade}</span>
+    {/if}
   </div>
 </div>
