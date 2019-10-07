@@ -19,7 +19,7 @@ const eulji_mundeok = {
   },
   talentTrees: [
     {
-      title: 'PVP',
+      title: '필드, 쟁',
       image: 'https://rok.guide/wp-content/uploads/2019/06/eulji-field-flad-fight-talent-tree-1024x576.png',
     },
     {

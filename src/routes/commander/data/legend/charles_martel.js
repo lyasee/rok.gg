@@ -19,6 +19,10 @@ const temp = {
   },
   talentTrees: [
     {
+      title: '혼합 부대 운영시',
+      image: 'hhttps://rok.guide/wp-content/uploads/2019/03/charles-martin-mixed-1024x576.jpg',
+    },
+    {
       title: '보병',
       image: 'https://www.gurugamer.ru/upload/000/u1/0/3/martell-infantry.jpg',
     },
