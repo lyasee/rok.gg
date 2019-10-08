@@ -6,7 +6,7 @@ const COMMANDER_NAME = '쿠스탄차';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '시칠리아 여왕',
-  image: commanderUrl + 'constance1.png',
+  image: commanderUrl + 'constance.png',
   thumbnail: '',
   basePower: 300,
   grade: '',

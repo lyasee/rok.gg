@@ -6,7 +6,7 @@ const COMMANDER_NAME = '살라딘';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '알 말리크 안 나시르',
-  image: commanderUrl + 'saladin1.png',
+  image: commanderUrl + 'saladin.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S,

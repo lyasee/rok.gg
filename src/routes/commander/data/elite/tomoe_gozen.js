@@ -6,7 +6,7 @@ const COMMANDER_NAME = '토모에 고젠';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '낙양의 미인',
-  image: commanderUrl + 'tomoe_gozen1.png',
+  image: commanderUrl + 'tomoe_gozen.png',
   thumbnail: '',
   basePower: 600,
   grade: '',

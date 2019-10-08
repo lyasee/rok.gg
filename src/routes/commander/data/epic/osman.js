@@ -6,7 +6,7 @@ const COMMANDER_NAME = '오스만 1세';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '제국의 개척자',
-  image: commanderUrl + 'osman11.png',
+  image: commanderUrl + 'osman1.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C,

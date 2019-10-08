@@ -6,7 +6,7 @@ const COMMANDER_NAME = '알렉산더 대왕';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '세계 정복자',
-  image: commanderUrl + 'alexander_greate1.png',
+  image: commanderUrl + 'alexander_greate.png',
   thumbnail: '',
   basePower: 1200,
   grade: RANK_S_PLUS,

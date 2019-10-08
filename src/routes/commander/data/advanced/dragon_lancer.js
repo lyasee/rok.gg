@@ -6,7 +6,7 @@ const COMMANDER_NAME = '용기병';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '불타는 창',
-  image: commanderUrl + 'dragon_lancer1.png',
+  image: commanderUrl + 'dragon_lancer.png',
   thumbnail: '',
   basePower: 150,
   grade: '',
