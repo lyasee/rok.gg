@@ -4,7 +4,7 @@
     {name: '이성계', isRequired: true},
     {name: '살라딘', isRequired: true},
     {name: '엘 시드', isRequired: false},
-    {name: '리처드 1세', isRequired: true},
+    {name: '리처드 1세', isRequired: false},
     {name: '카를 마르텔', isRequired: false},
     {name: '미나모토노 요시쓰네', isRequired: false},
     {name: '조조', isRequired: false},
