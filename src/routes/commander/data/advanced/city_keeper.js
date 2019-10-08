@@ -6,7 +6,7 @@ const COMMANDER_NAME = '수호자';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '백성의 방패',
-  image: commanderUrl + 'city_keeper.png',
+  image: commanderUrl + 'city_keeper1.png',
   thumbnail: '',
   basePower: 150,
   grade: '',

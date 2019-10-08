@@ -6,7 +6,7 @@ const COMMANDER_NAME = '벨리사리우스';
 const temp = {
   name: COMMANDER_NAME,
   nickname: '최후의 로마인',
-  image: commanderUrl + 'belisarius.png',
+  image: commanderUrl + 'belisarius1.png',
   thumbnail: '',
   basePower: 600,
   grade: RANK_C,
