@@ -83,6 +83,9 @@
     <nav>
       <ul>
         <li>
+          <a class={segment === 'update' ? 'selected' : ''} href="update">업데이트</a>
+        </li>
+        <li>
           <a class={segment === 'notice' ? 'selected' : ''} href="notice">공지</a>
         </li>
         <li>
