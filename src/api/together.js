@@ -26,5 +26,11 @@ export const getTogethers = () => {
       server: '1483',
       items: ['율리우스 카이사르'],
     },
+    {
+      type: image,
+      nickname: '린v',
+      server: '1468',
+      items: ['리처드 1세'],
+    },
   ];
 };
