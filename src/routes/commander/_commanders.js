@@ -16,9 +16,11 @@ import alexander_greate from './data/legend/alexander_greate';
 import constantine from './data/legend/constantine';
 import genghis_khan from './data/legend/genghis_khan';
 import aethelflaed from './data/legend/aethelflaed';
+import edward_of_woodstock from './data/legend/edward_of_woodstock';
 
 export const legends = [
   alexander_greate,
+  edward_of_woodstock,
   yi_seong_gye,
   saladin,
   el_cid,
