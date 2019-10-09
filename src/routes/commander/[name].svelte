@@ -210,7 +210,7 @@
       <Title title="추천 조합 사령관" />
       <div style="padding: 0 8px;">
         <select on:change={changePair}>
-          <option value="1">Legend Rhony</option>
+          <option value="1">shinchi2</option>
           <option value="2">detectiveG</option>
         </select>
       </div>

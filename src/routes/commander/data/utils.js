@@ -1,4 +1,4 @@
-import paris, {legendRhony, detectiveG} from './pairs';
+import paris, {shinchi2, detectiveG} from './pairs';
 import {specificityUrl, nationUrl} from './statics';
 
 // 스킬 레벨 별 증가, 감소량
@@ -87,7 +87,7 @@ export const getNationImage = nation => {
 
 export const getPrimaryPairs = (commander, type) => {
   if (type === 1) {
-    return legendRhony.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
+    return shinchi2.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
   } else if (type === 2) {
     return detectiveG.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
   } else {
@@ -97,7 +97,7 @@ export const getPrimaryPairs = (commander, type) => {
 
 export const getSecondaryPairs = (commander, type) => {
   if (type === 1) {
-    return legendRhony.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
+    return shinchi2.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
   } else if (type === 2) {
     return detectiveG.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
   } else {

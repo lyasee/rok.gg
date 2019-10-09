@@ -128,7 +128,7 @@ export const detectiveG = [
   {primary: '백부장', secondary: '샤르카', rank: 1},
 ];
 
-export const legendRhony = [
+export const shinchi2 = [
   {primary: '바이바르스', secondary: '손무', rank: 4},
   {primary: '바이바르스', secondary: '구스노키 마사시게', rank: 4},
   {primary: '바이바르스', secondary: '메흐메트 2세', rank: 3},
@@ -263,4 +263,4 @@ export const legendRhony = [
   {primary: '수호자', secondary: '프리드리히 1세', rank: 4},
 ];
 
-export default [...detectiveG, ...legendRhony, ...gathering];
+export default [...detectiveG, ...shinchi2, ...gathering];
