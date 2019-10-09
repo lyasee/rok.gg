@@ -1,7 +1,7 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
 import {RANK_S, commanderUrl, talentUrl, skillUrl} from '../statics';
 
-const COMMANDER_NAME = '에드워드 우드스톡';
+const COMMANDER_NAME = '애드워드 우드스톡';
 
 const temp = {
   name: COMMANDER_NAME,
