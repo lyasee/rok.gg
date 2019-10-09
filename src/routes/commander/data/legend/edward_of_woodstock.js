@@ -5,7 +5,7 @@ const COMMANDER_NAME = '에드워드 우드스톡';
 
 const temp = {
   name: COMMANDER_NAME,
-  nickname: '블랙 프린스',
+  nickname: '흑태자',
   image: commanderUrl + 'edward_of_woodstock.png',
   thumbnail: '',
   basePower: 1200,
@@ -38,6 +38,10 @@ const temp = {
           name: '즉시 피해량',
           previews: makeSkillPreviews('1500', '1700', '1900', '2200', '2500'),
         },
+        {
+          name: '피해량(부사령관인 경우)',
+          previews: makeSkillPreviews('750', '850', '950', '1100', '1250'),
+        },
       ],
       rageRequirement: 1000, // 액티브인 경우만 존재
     },
@@ -60,15 +64,15 @@ const temp = {
     {
       type: '패시브',
       name: '크래시 전투',
-      description: '궁병으로만 구성 시 스킬 공격력 50% 증가, 보병 유닛에게 주는 피해 1% 증가',
+      description: '궁병으로만 구성 시 스킬 피해량 50% 증가, 보병 유닛에게 주는 피해 1% 증가',
       image: skillUrl + 'edward_of_woodstock-skill-3.png',
       skillPreviews: [
         {
-          name: '스킬 공격력 증가',
+          name: '스킬 피해량 증가',
           previews: makeSkillPreviews('5%', '10%', '15%', '20%', '25%'),
         },
         {
-          name: '보병 유닛에게 주는 피해 증가',
+          name: '보병 유닛에게 주는 피해량 증가',
           previews: makeSkillPreviews('1%', '2%', '3%', '4%', '5%'),
         },
       ],
@@ -76,7 +80,7 @@ const temp = {
     {
       type: '패시브',
       name: '리모주의 급습',
-      description: '병력이 70% 이상일 경우 공격력 증가, 방어력 10% 감소',
+      description: '병력이 70% 이상일 경우 공격력 %증가, 방어력 10% 감소',
       image: skillUrl + 'edward_of_woodstock-skill-4.png',
       skillPreviews: [
         {
