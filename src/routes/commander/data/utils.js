@@ -1,4 +1,4 @@
-import paris from './pairs';
+import paris, {legendRhony, detectiveG} from './pairs';
 import {specificityUrl, nationUrl} from './statics';
 
 // 스킬 레벨 별 증가, 감소량
@@ -85,10 +85,22 @@ export const getNationImage = nation => {
   }
 };
 
-export const getPrimaryPairs = commander => {
-  return paris.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
+export const getPrimaryPairs = (commander, type) => {
+  if (type === 1) {
+    return legendRhony.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
+  } else if (type === 2) {
+    return detectiveG.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
+  } else {
+    return paris.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
+  }
 };
 
-export const getSecondaryPairs = commander => {
-  return paris.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
+export const getSecondaryPairs = (commander, type) => {
+  if (type === 1) {
+    return legendRhony.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
+  } else if (type === 2) {
+    return detectiveG.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
+  } else {
+    return paris.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
+  }
 };

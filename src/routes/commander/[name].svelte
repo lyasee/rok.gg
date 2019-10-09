@@ -14,11 +14,21 @@
 </script>
 
 <script>
-  import {getNationImage, getSpecificityImage} from './data/utils';
+  import {getNationImage, getSpecificityImage, getPrimaryPairs, getSecondaryPairs} from './data/utils';
   import Specialty from '../../components/commanders/Specialty.svelte';
   import Title from '../../components/commanders/Title.svelte';
 
   export let commander;
+
+  let primaryPairs = getPrimaryPairs(commander.name, 1);
+  let secondaryPairs = getSecondaryPairs(commander.name, 1);
+
+  const changePair = e => {
+    const selected = e.target.value;
+
+    primaryPairs = getPrimaryPairs(commander.name, Number(selected));
+    secondaryPairs = getSecondaryPairs(commander.name, Number(selected));
+  };
 </script>
 
 <style>
@@ -196,14 +206,20 @@
 
   <!-- 짝궁 -->
   <div style="padding: 8px 0;">
-    <div style="padding-bottom: 16px;">
+    <div style="padding-bottom: 16px; display: flex;">
       <Title title="추천 조합 사령관" />
+      <div style="padding: 0 8px;">
+        <select on:change={changePair}>
+          <option value="1">Legend Rhony</option>
+          <option value="2">detectiveG</option>
+        </select>
+      </div>
     </div>
 
     <div style="display: flex;">
       <div style="flex: 1;">
         <h4>주사령관</h4>
-        {#each commander.pairs.primary as pair}
+        {#each primaryPairs as pair}
           <div style="padding: 8px 0; widht: 100%">
             <span>{pair.rank}티어</span>
             <span>{' - '}</span>
@@ -216,7 +232,7 @@
 
       <div style="flex: 1;">
         <h4>부사령관</h4>
-        {#each commander.pairs.secondary as pair}
+        {#each secondaryPairs as pair}
           <div style="padding: 8px 0; widht: 100%">
             <span>{pair.rank}티어</span>
             <span>{' - '}</span>
