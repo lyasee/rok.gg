@@ -206,7 +206,7 @@
 
   <!-- 짝궁 -->
   <div style="padding: 8px 0;">
-    <div style="padding-bottom: 16px; display: flex;">
+    <div style="display: flex;">
       <Title title="추천 조합 사령관" />
       <div style="padding: 0 8px;">
         <select on:change={changePair}>
@@ -214,6 +214,26 @@
           <option value="2">detectiveG</option>
         </select>
       </div>
+    </div>
+
+    <div>
+      <p>
+        shinchi2, detectiveG는 유튜버 이름입니다.
+        <br />
+        해당 자료는 제작된지 좀 지난 자료입니다. 참고용도로만 사용하시면 될것같습니다.
+        <br />
+        ex) 1티어 A사령관 B사령관 인 경우 A사령관 "기준"으로 1순위로 잘맞는 사령관은 B사령관입니다.
+        <br />
+        <span style="font-size: 12px;">(부사령관에 대한 정보가 오해할 수 있는 소지를 가지고 있는것 같습니다. A사령관 기준입니다.)</span>
+        <br />
+      </p>
+      <p>
+        모든 사령관중에서 비교한 자료가 아닙니다.
+        <br />
+        제작자:
+        <a href="https://www.simonho.ca/gaming/rok-commander-pairings/">simonho</a>
+      </p>
+      <br />
     </div>
 
     <div style="display: flex;">
