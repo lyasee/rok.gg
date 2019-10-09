@@ -87,9 +87,9 @@ export const getNationImage = nation => {
 
 export const getPrimaryPairs = (commander, type) => {
   if (type === 1) {
-    return shinchi2.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
-  } else if (type === 2) {
     return detectiveG.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
+  } else if (type === 2) {
+    return shinchi2.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
   } else {
     return paris.filter(v => v.primary.includes(commander)).sort((a, b) => a.rank - b.rank);
   }
@@ -97,9 +97,9 @@ export const getPrimaryPairs = (commander, type) => {
 
 export const getSecondaryPairs = (commander, type) => {
   if (type === 1) {
-    return shinchi2.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
-  } else if (type === 2) {
     return detectiveG.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
+  } else if (type === 2) {
+    return shinchi2.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
   } else {
     return paris.filter(v => v.secondary.includes(commander)).sort((a, b) => a.rank - b.rank);
   }

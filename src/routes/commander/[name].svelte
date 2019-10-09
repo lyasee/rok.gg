@@ -210,15 +210,15 @@
       <Title title="추천 조합 사령관" />
       <div style="padding: 0 8px;">
         <select on:change={changePair}>
-          <option value="1">shinchi2</option>
-          <option value="2">detectiveG</option>
+          <option value="1">detectiveG</option>
+          <option value="2">shinchi2</option>
         </select>
       </div>
     </div>
 
     <div>
       <p>
-        shinchi2, detectiveG는 유튜버 이름입니다.
+        detectiveG, shinchi2는 유튜버 이름입니다.
         <br />
         해당 자료는 제작된지 좀 지난 자료입니다. 참고용도로만 사용하시면 될것같습니다.
         <br />
