@@ -230,8 +230,6 @@
       <p>
         모든 사령관중에서 비교한 자료가 아닙니다.
         <br />
-        제작자:
-        <a href="https://www.simonho.ca/gaming/rok-commander-pairings/">simonho</a>
       </p>
       <br />
     </div>
