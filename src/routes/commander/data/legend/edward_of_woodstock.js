@@ -1,7 +1,7 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
 import {RANK_S, commanderUrl, talentUrl, skillUrl} from '../statics';
 
-const COMMANDER_NAME = '애드워드 우드스톡';
+const COMMANDER_NAME = '에드워드 우드스톡';
 
 const temp = {
   name: COMMANDER_NAME,
@@ -30,8 +30,8 @@ const temp = {
   skills: [
     {
       type: '액티브',
-      name: 'Archers Honor',
-      description: '',
+      name: '궁수의 명예',
+      description: '부사령관인 경우 피해량이 50% 감소합니다.',
       image: skillUrl + 'edward_of_woodstock-skill-1.png',
       skillPreviews: [
         {
@@ -43,20 +43,24 @@ const temp = {
     },
     {
       type: '패시브',
-      name: 'Vengeful Crusade',
-      description: '',
+      name: '복수의 십자군',
+      description: '궁병 유닛 생명력, 행군 속도 상승',
       image: skillUrl + 'edward_of_woodstock-skill-2.png',
       skillPreviews: [
         {
           name: '궁병 유닛 행군 속도 상승',
           previews: makeSkillPreviews('10%', '15%', '20%', '25%', '30%'),
         },
+        {
+          name: '궁병 유닛 생명력 증가',
+          previews: makeSkillPreviews('10%', '15%', '20%', '25%', '30%'),
+        },
       ],
     },
     {
       type: '패시브',
-      name: "Crecy's Campaign",
-      description: '',
+      name: '크래시 전투',
+      description: '궁병으로만 구성 시 스킬 공격력 50% 증가, 보병 유닛에게 주는 피해 1% 증가',
       image: skillUrl + 'edward_of_woodstock-skill-3.png',
       skillPreviews: [
         {
@@ -64,26 +68,26 @@ const temp = {
           previews: makeSkillPreviews('5%', '10%', '15%', '20%', '25%'),
         },
         {
-          name: '보병 공격시 데미지 증가',
+          name: '보병 유닛에게 주는 피해 증가',
           previews: makeSkillPreviews('1%', '2%', '3%', '4%', '5%'),
         },
       ],
     },
     {
       type: '패시브',
-      name: "Limoges' Ambush",
-      description: '',
+      name: '리모주의 급습',
+      description: '병력이 70% 이상일 경우 공격력 증가, 방어력 10% 감소',
       image: skillUrl + 'edward_of_woodstock-skill-4.png',
       skillPreviews: [
         {
           name: '궁병 공격력 증가',
-          previews: makeSkillPreviews('2%', '4%', '6%', '8%', '10%'),
+          previews: makeSkillPreviews('15%', '20%', '25%', '30%', '40%'),
         },
       ],
     },
     {
       type: '패시브',
-      name: 'All or Nothing',
+      name: '모 아니면 도',
       description: '스킬 사용 후 2초 동안 일반 공격 및 반격 데미지 50% 증가',
       image: skillUrl + 'edward_of_woodstock-skill-5.png',
       beforeAwakening: '', // 각성 전
