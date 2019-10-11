@@ -54,7 +54,7 @@
 </a>
 
 <div class="update-container">
-  <span>업데이트: 2019.10.07</span>
+  <span>업데이트: 2019.10.11</span>
 </div>
 
 <div class="commander-list">
