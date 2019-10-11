@@ -19,8 +19,8 @@ const temp = {
   },
   talentTrees: [
     {
-      title: '',
-      image: '',
+      title: '필드',
+      image: talentUrl + 'genghis_khan-mix.png',
     },
   ],
   pairs: {
