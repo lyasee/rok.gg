@@ -69,7 +69,7 @@
 <div
   class="commander-card shadow"
   style={rarity === '레전드' ? 'background: #fcd04b;' : rarity === '에픽' ? 'background: #9e54bdf2;' : rarity === '엘리트' ? 'background: #4593e3f5;' : 'background: #2ecc71;'}>
-  <a rel="prefetch" href="commander/{name}" style="height: 100%; width: 100%; padding: 16px 0;">
+  <a rel="prefetch" href="/commander/{name}" style="height: 100%; width: 100%; padding: 16px 0;">
     <div class="commander-card-content">
       <div style="padding: 8px;">
         <div

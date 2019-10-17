@@ -62,3 +62,20 @@
       grade={commander.grade} />
   {/each}
 </div>
+
+<div>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+
+  </script>
+  <!-- 가로 긴거 -->
+  <ins
+    class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-8271789671155671"
+    data-ad-slot="9536839823"
+    data-ad-format="auto"
+    data-full-width-responsive="true" />
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
