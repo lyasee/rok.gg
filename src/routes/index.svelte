@@ -47,12 +47,6 @@
   <title>라이즈 오브 킹덤즈</title>
 </svelte:head>
 
-<a href="notice" style="text-decoration: none;">
-  <div class="notice-container">
-    <div style="color: #f06060; font-weight: bold;">[공지사항] 특성 이미지 제작 참여</div>
-  </div>
-</a>
-
 <div class="update-container">
   <span>업데이트: 2019.10.11</span>
 </div>
