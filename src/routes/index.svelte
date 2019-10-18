@@ -48,7 +48,7 @@
 </svelte:head>
 
 <div class="update-container">
-  <span>업데이트: 2019.10.11</span>
+  <span>업데이트: 2019.10.18 (일부 사령관 스킬 레벨업 순서 추가)</span>
 </div>
 
 <div class="commander-list">
