@@ -1,5 +1,5 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_B, commanderUrl, talentUrl, skillUrl} from '../statics';
+import {RANK_B_MINUS, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '구스노키 마사시게';
 
@@ -9,7 +9,7 @@ const temp = {
   image: commanderUrl + 'kusunoki_masashige.png',
   thumbnail: '',
   basePower: 600,
-  grade: RANK_B,
+  grade: RANK_B_MINUS,
   rarity: '에픽',
   nation: '일본',
   specialties: {

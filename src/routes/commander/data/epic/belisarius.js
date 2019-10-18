@@ -1,5 +1,5 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_C, commanderUrl, talentUrl, skillUrl} from '../statics';
+import {RANK_B_MINUS, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '벨리사리우스';
 
@@ -9,7 +9,7 @@ const temp = {
   image: commanderUrl + 'belisarius.png',
   thumbnail: '',
   basePower: 600,
-  grade: RANK_C,
+  grade: RANK_B_MINUS,
   rarity: '에픽',
   nation: '비잔티움',
   specialties: {

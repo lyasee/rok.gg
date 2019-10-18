@@ -53,7 +53,7 @@ import baibars from './data/epic/baibars';
 import belisarius from './data/epic/belisarius';
 import osman from './data/epic/osman';
 
-export const epics = [sun_tzu, kusunoki_masashige, eulji_mundeok, pelagius, joan_of_arc, boudica, baibars, osman, hermann, belisarius, scipio, lohar];
+export const epics = [sun_tzu, pelagius, baibars, joan_of_arc, belisarius, kusunoki_masashige, eulji_mundeok, boudica, osman, hermann, scipio, lohar];
 
 // 엘리트 사령관
 import tomoe_gozen from './data/elite/tomoe_gozen';

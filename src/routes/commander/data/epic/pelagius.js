@@ -1,5 +1,5 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_B_MINUS, commanderUrl, talentUrl, skillUrl} from '../statics';
+import {RANK_B, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '펠라기우스';
 
@@ -9,7 +9,7 @@ const temp = {
   image: commanderUrl + 'pelagius.png',
   thumbnail: '',
   basePower: 600,
-  grade: RANK_B_MINUS,
+  grade: RANK_B,
   rarity: '에픽',
   nation: '스페인',
   specialties: {

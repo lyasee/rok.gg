@@ -1,5 +1,5 @@
 import {makeSkillPreviews, getPrimaryPairs, getSecondaryPairs} from '../utils';
-import {RANK_C_PLUS, commanderUrl, talentUrl, skillUrl} from '../statics';
+import {RANK_B, commanderUrl, talentUrl, skillUrl} from '../statics';
 
 const COMMANDER_NAME = '바이바르스';
 
@@ -9,7 +9,7 @@ const temp = {
   image: commanderUrl + 'baibars.png',
   thumbnail: '',
   basePower: 600,
-  grade: RANK_C_PLUS,
+  grade: RANK_B,
   rarity: '에픽',
   nation: '아라비아',
   specialties: {
