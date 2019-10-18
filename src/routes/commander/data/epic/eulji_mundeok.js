@@ -31,6 +31,20 @@ const eulji_mundeok = {
     primary: getPrimaryPairs(COMMANDER_NAME),
     secondary: getSecondaryPairs(COMMANDER_NAME),
   },
+  skillLevel: [
+    {
+      order: 1,
+      desc: '5000 - 첫번째 스킬 5랩까지 별1개 유지',
+    },
+    {
+      order: 2,
+      desc: '5111 - 별4개로 업그레이드',
+    },
+    {
+      order: 3,
+      desc: '5555 - 보조로만 사용시 레벨업 중단, 메인인 경우 레벨업',
+    },
+  ],
   skills: [
     {
       type: '액티브',

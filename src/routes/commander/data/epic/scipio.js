@@ -31,6 +31,20 @@ const scipio = {
     primary: getPrimaryPairs(COMMANDER_NAME),
     secondary: getSecondaryPairs(COMMANDER_NAME),
   },
+  skillLevel: [
+    {
+      order: 1,
+      desc: '5000 - 첫번째 스킬 5랩까지 별1개 유지',
+    },
+    {
+      order: 2,
+      desc: '5500 - 별2개로 업그레이드 (2번째 5랩까지)',
+    },
+    {
+      order: 3,
+      desc: '5515 - 별4개로 업그레이드 후 4번째 스킬 5랩 (3번째는 마지막)',
+    },
+  ],
   skills: [
     {
       type: '액티브',

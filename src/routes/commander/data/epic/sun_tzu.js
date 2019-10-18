@@ -35,6 +35,28 @@ const temp = {
     primary: getPrimaryPairs(COMMANDER_NAME),
     secondary: getSecondaryPairs(COMMANDER_NAME),
   },
+  skillLevel: [
+    {
+      order: 1,
+      desc: '5000 - 첫번째 스킬 5랩까지 별1개 유지',
+    },
+    {
+      order: 2,
+      desc: '5110 - 별3개로 업그레이드',
+    },
+    {
+      order: 3,
+      desc: '5150 - 3번째 스킬만 업그레이드 (2번째 스킬은 필요 없음)',
+    },
+    {
+      order: 3,
+      desc: '5151 - 별4개로 업그레이드',
+    },
+    {
+      order: 3,
+      desc: '5555 - 보조인 경우 레벨업 중단, 메인은 경우 레벨링',
+    },
+  ],
   skills: [
     {
       type: '액티브',
