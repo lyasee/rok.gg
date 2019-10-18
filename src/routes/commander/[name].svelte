@@ -191,6 +191,17 @@
         </div>
       </div>
     {/each}
+
+    {#if commander.skillLevel}
+      <div style="padding: 24px 0;">
+        <Title title="추천 스킬 트리" />
+        <ul>
+          {#each commander.skillLevel as skillLevel}
+            <li>{skillLevel.desc}</li>
+          {/each}
+        </ul>
+      </div>
+    {/if}
   </div>
 
   <!-- 특성 -->

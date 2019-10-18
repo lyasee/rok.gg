@@ -35,6 +35,32 @@ const temp = {
     primary: getPrimaryPairs(COMMANDER_NAME),
     secondary: getSecondaryPairs(COMMANDER_NAME),
   },
+  skillLevel: [
+    {
+      order: 1,
+      desc: '첫번째 스킬 5랩까지 별1개 유지 (5000)',
+    },
+    {
+      order: 2,
+      desc: '[무과금] 별4개로 업그레이드 끝 (5111)',
+    },
+    {
+      order: 2,
+      desc: '[과금] 별2개로 업그레이드 (5100)',
+    },
+    {
+      order: 3,
+      desc: '[과금] 두번째 스킬 5랩까지 별2개 유지 (5500)',
+    },
+    {
+      order: 4,
+      desc: '[과금] 5500인 상태에서 별 4개로 업그레이드 (5511)',
+    },
+    {
+      order: 5,
+      desc: '[과금] 돈대는대로 (5555)',
+    },
+  ],
   skills: [
     {
       type: '액티브',
