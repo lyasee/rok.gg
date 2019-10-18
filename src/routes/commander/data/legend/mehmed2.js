@@ -19,7 +19,7 @@ const temp = {
   },
   talentTrees: [
     {
-      title: 'PVP',
+      title: '전투',
       image: talentUrl + 'mehmed2-pvp.jpg',
     },
     {

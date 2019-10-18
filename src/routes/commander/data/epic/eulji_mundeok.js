@@ -20,7 +20,7 @@ const eulji_mundeok = {
   talentTrees: [
     {
       title: '필드, 쟁',
-      image: talentUrl + 'eulji_mundeok-flag.png',
+      image: talentUrl + 'eulji_mundeok-flag.jpg',
     },
     {
       title: '주둔지',

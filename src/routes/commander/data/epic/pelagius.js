@@ -20,15 +20,15 @@ const temp = {
   talentTrees: [
     {
       title: '극딜',
-      image: talentUrl + 'pelagius-nuker.png',
+      image: talentUrl + 'pelagius-nuker.jpg',
     },
     {
       title: '기마병',
-      image: talentUrl + 'pelagius-gi.png',
+      image: talentUrl + 'pelagius-gi.jpg',
     },
     {
       title: '주둔',
-      image: talentUrl + 'pelagius-zu.png',
+      image: talentUrl + 'pelagius-zu.jpg',
     },
   ],
   pairs: {

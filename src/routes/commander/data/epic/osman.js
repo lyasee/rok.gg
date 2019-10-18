@@ -19,8 +19,8 @@ const temp = {
   },
   talentTrees: [
     {
-      title: 'PVP',
-      image: talentUrl + 'kor/osman1-pvp.jpg',
+      title: '필드',
+      image: talentUrl + 'osman1-pvp.jpg',
     },
   ],
   pairs: {

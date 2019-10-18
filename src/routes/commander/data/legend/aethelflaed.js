@@ -20,11 +20,11 @@ const temp = {
   talentTrees: [
     {
       title: '이동속도',
-      image: talentUrl + 'aethelflaed-mo.png',
+      image: talentUrl + 'aethelflaed-mo.jpg',
     },
     {
       title: '공격',
-      image: talentUrl + 'aethelflaed-power.png',
+      image: talentUrl + 'aethelflaed-power.jpg',
     },
   ],
   pairs: {
