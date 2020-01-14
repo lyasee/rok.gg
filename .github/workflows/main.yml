@@ -14,5 +14,10 @@ jobs:
         key: ${{ secrets.ssh_key }}
         port: 22
         script: |
-          whoami
-          ls -al
+          cd ~
+          cd rok.gg
+          git pull
+          npm i
+          npm run build
+          npm run pm2:delete
+          npm run pm2
