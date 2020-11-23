@@ -3,5 +3,6 @@ module.exports = {
   jsxBracketSameLine: true,
   singleQuote: true,
   trailingComma: 'all',
-  printWidth: 160,
+  printWidth: 100,
+  plugins: ["prettier-plugin-svelte"]
 };

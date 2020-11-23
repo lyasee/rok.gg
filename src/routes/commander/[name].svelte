@@ -14,7 +14,12 @@
 </script>
 
 <script>
-  import {getNationImage, getSpecificityImage, getPrimaryPairs, getSecondaryPairs} from './data/utils';
+  import {
+    getNationImage,
+    getSpecificityImage,
+    getPrimaryPairs,
+    getSecondaryPairs,
+  } from './data/utils';
   import Specialty from '../../components/commanders/Specialty.svelte';
   import Title from '../../components/commanders/Title.svelte';
 
@@ -23,7 +28,7 @@
   let primaryPairs = getPrimaryPairs(commander.name, 1);
   let secondaryPairs = getSecondaryPairs(commander.name, 1);
 
-  const changePair = e => {
+  const changePair = (e) => {
     const selected = e.target.value;
 
     primaryPairs = getPrimaryPairs(commander.name, Number(selected));
@@ -76,16 +81,27 @@
 </style>
 
 <svelte:head>
-  <title>{commander.name}</title>
+  <title>사령관 - {commander.name}</title>
+  <meta name="title" content="" />
+  <meta name="keywords" content="rok.gg,rokgg,라이브오브킹덤즈,라오킹,사령관,{commander.name}" />
+  <meta http-equiv="publisher" content="rok.gg" />
+  <meta http-equiv="author" content="rok.gg" />
+  <meta name="description" content="사령관 특성, 스킬트리 rok.gg" />
+  <meta property="og:title" content="사령관 - {commander.name}" />
+  <meta property="og:image" content={commander.image} />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="400" />
+  <meta property="og:url" content="https://rok.gg" />
+  <meta property="og:site_name" content="rok.gg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="rok.gg - {commander.name}" />
 </svelte:head>
 
 <div class="container">
   <div>
     <span>
-      <strong>
-        <a href="commander" style="color: #f06060;">사령관</a>
-      </strong>
-      > {commander.name}
+      <strong> <a href="v2/commander" style="color: #f06060;">사령관</a> </strong>
+      {commander.name}
     </span>
   </div>
   <div class="wrapper">
@@ -98,26 +114,24 @@
     <div style="padding: 16px;">
       <!-- 사령관 국가, 닉네임-->
       <div style="height: 18px; display: flex;">
-        <div>
-          <img src={getNationImage(commander.nation)} alt="" height="14px" />
-        </div>
+        <div><img src={getNationImage(commander.nation)} alt="" height="14px" /></div>
         <div style="padding: 0 3px;">{commander.nation} /</div>
         <div style="padding: 0 3px;">{commander.nickname} /</div>
-        <div>
-          <span>
-            <strong>{' '} {commander.rarity}</strong>
-          </span>
-        </div>
+        <div><span> <strong>{' '} {commander.rarity}</strong> </span></div>
       </div>
 
       <!-- 사령관 이름 -->
-      <div style="padding: 8px 0;">
-        <span style="font-size: 28px;">{commander.name}</span>
-      </div>
+      <div style="padding: 8px 0;"><span style="font-size: 28px;">{commander.name}</span></div>
       <div style="display: flex;">
-        <Specialty image={getSpecificityImage(commander.specialties.red)} text={commander.specialties.red} />
-        <Specialty image={getSpecificityImage(commander.specialties.yellow)} text={commander.specialties.yellow} />
-        <Specialty image={getSpecificityImage(commander.specialties.blue)} text={commander.specialties.blue} />
+        <Specialty
+          image={getSpecificityImage(commander.specialties.red)}
+          text={commander.specialties.red} />
+        <Specialty
+          image={getSpecificityImage(commander.specialties.yellow)}
+          text={commander.specialties.yellow} />
+        <Specialty
+          image={getSpecificityImage(commander.specialties.blue)}
+          text={commander.specialties.blue} />
       </div>
     </div>
   </div>
@@ -130,22 +144,16 @@
         <div class="skill-image-wrapper">
           {#if skill.image === ''}
             <div style="height: 64px; width: 64px; background: #efefef; border-radius: 4px;" />
-          {:else}
-            <img src={skill.image} alt="" height="100%" />
-          {/if}
+          {:else}<img src={skill.image} alt="" height="100%" />{/if}
         </div>
         <div style="padding: 2px 8px;">
           <div>
-            <span>
-              <strong>{skill.name}</strong>
-            </span>
+            <span> <strong>{skill.name}</strong> </span>
             <span style="padding: 0 2px; color: #1A70DC; font-size: 10px;">
               <strong>{skill.type}</strong>
             </span>
           </div>
-          <div>
-            <span style="font-size: 12px;">{skill.description}</span>
-          </div>
+          <div><span style="font-size: 12px;">{skill.description}</span></div>
           <div>
             {#if skill.rageRequirement}
               <span style="color: #ff6699; font-size: 12px;">
@@ -155,12 +163,7 @@
           </div>
           <div>
             {#if skill.type === '강화'}
-              <div>
-                <span>
-                  강화:
-                  <strong>{skill.target}</strong>
-                </span>
-              </div>
+              <div><span> 강화: <strong>{skill.target}</strong> </span></div>
               <div style="padding: 12px 0 4px 0">
                 <span style="color: #A9A9A9">각성 전</span>
                 <br />
@@ -174,9 +177,7 @@
             {:else}
               {#each skill.skillPreviews as skillPreview}
                 <div style="display: flex;">
-                  <div>
-                    <span style="font-size: 12px;">{skillPreview.name}:</span>
-                  </div>
+                  <div><span style="font-size: 12px;">{skillPreview.name}:</span></div>
                   <div style="display: flex; padding: 0 8px;">
                     {#each skillPreview.previews as previews}
                       <div style="padding-right: 8px;">
@@ -220,7 +221,7 @@
     <div style="display: flex;">
       <Title title="추천 조합 사령관" />
       <div style="padding: 0 8px;">
-        <select on:change={changePair}>
+        <select on:change={changePair} on:blur>
           <option value="1">detectiveG</option>
           <option value="2">shinchi2</option>
         </select>
@@ -235,7 +236,8 @@
         <br />
         ex) 1티어 A사령관 B사령관 인 경우 A사령관 "기준"으로 1순위로 잘맞는 사령관은 B사령관입니다.
         <br />
-        <span style="font-size: 12px;">(부사령관에 대한 정보가 오해할 수 있는 소지를 가지고 있는것 같습니다. A사령관 기준입니다.)</span>
+        <span style="font-size: 12px;">(부사령관에 대한 정보가 오해할 수 있는 소지를 가지고 있는것
+          같습니다. A사령관 기준입니다.)</span>
         <br />
       </p>
       <br />
@@ -273,7 +275,6 @@
 
 <div>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-
   </script>
   <!-- 가로 긴거 -->
   <ins

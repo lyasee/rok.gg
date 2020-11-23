@@ -77,23 +77,15 @@
 
 <div class="nav-container">
   <div class="nav-wrapper">
-    <div class="logo-wrapper">
-      <a href=".">ROK.GG</a>
-    </div>
+    <div class="logo-wrapper"><a href=".">ROK.GG</a></div>
     <nav>
       <ul>
+        <li><a class={segment === 'update' ? 'selected' : ''} href="update">업데이트</a></li>
+        <li><a class={segment === 'notice' ? 'selected' : ''} href="notice">공지</a></li>
         <li>
-          <a class={segment === 'update' ? 'selected' : ''} href="update">업데이트</a>
+          <a class={!segment || segment === 'v2/commander' ? 'selected' : ''} href=".">사령관</a>
         </li>
-        <li>
-          <a class={segment === 'notice' ? 'selected' : ''} href="notice">공지</a>
-        </li>
-        <li>
-          <a class={!segment || segment === 'commander' ? 'selected' : ''} href=".">사령관</a>
-        </li>
-        <li>
-          <a class={segment === 'together' ? 'selected' : ''} href="together">참여자</a>
-        </li>
+        <li><a class={segment === 'together' ? 'selected' : ''} href="together">참여자</a></li>
       </ul>
     </nav>
   </div>

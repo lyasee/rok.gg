@@ -1,5 +1,5 @@
 <script context="module">
-  import {APIGetCommanders} from '../api/commander';
+  import {APIGetCommanders} from '../../../api/commander';
 
   export async function preload({params, query}) {
     const commanders = await APIGetCommanders();
@@ -19,8 +19,8 @@
 </script>
 
 <script>
-  import CommanderV2Card from '../components/commanders/v2/CommanderV2Card.svelte';
-  import CommanderOldCard from '../components/commanders/CommanderCard.svelte';
+  import CommanderV2Card from '../../../components/commanders/v2/CommanderV2Card.svelte';
+  import CommanderOldCard from '../../../components/commanders/CommanderCard.svelte';
   export let commanders = [];
   export let oldCommanders = [];
 </script>
