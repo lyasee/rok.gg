@@ -28,7 +28,7 @@ jobs:
           username: ${{ secrets.username }}
           key: ${{ secrets.ssh_key }}
           port: 22
-          target: /home/jenkins/rok.gg
+          target: /home/jenkins/rok.gg/temp
           source: "build.tar.gz"
           rm: true
 
@@ -45,6 +45,9 @@ jobs:
             git pull
             npm i
             rm -rf __sapper__
+            cd temp
             tar zxvf build.tar.gz
+            mv __sapper__ /home/jenkins/rok.gg
+            cd ..
             npm run pm2:delete
             npm run pm2
