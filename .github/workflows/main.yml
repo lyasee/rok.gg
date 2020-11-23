@@ -19,7 +19,7 @@ jobs:
         run: npm run build
 
       - name: tar build
-        run: tar czvf bulid.tar.gz __sapper__
+        run: tar czvf build.tar.gz __sapper__
 
       - name: SCP Command to Transfer Files (front-1)
         uses: appleboy/scp-action@v0.0.5
