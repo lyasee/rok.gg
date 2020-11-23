@@ -1,23 +1,50 @@
 name: remote ssh command
-on: [push]
+on:
+ push:
+    branches:
+      - master
 jobs:
 
   build:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.host }}
-        username: ${{ secrets.username }}
-        key: ${{ secrets.ssh_key }}
-        port: 22
-        script: |
-          cd ~
-          cd rok.gg
-          git pull
-          npm i
-          npm run build
-          npm run pm2:delete
-          npm run pm2
+      - name: Checkout source code.   # 레포지토리 체크아웃
+        uses: actions/checkout@master
+
+      - name: Install Dependencies    # 의존 파일 설치
+        run: npm install
+
+      - name: Build                   # React Build
+        run: npm run build
+
+      - name: tar build
+        run: tar czvf bulid.tar.gz __sapper__
+
+      - name: SCP Command to Transfer Files (front-1)
+        uses: appleboy/scp-action@v0.0.5
+        with:
+          host: ${{ secrets.host }}
+          username: ${{ secrets.username }}
+          key: ${{ secrets.ssh_key }}
+          port: 22
+          target: /home/jenkins/rok.gg/build_temp
+          source: "build.tar.gz"
+          rm: true
+
+      - name: executing remote ssh commands (front-1)
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.host }}
+          username: ${{ secrets.username }}
+          key: ${{ secrets.ssh_key }}
+          port: 22
+          script: |
+            cd ~
+            cd rok.gg
+            git pull
+            npm i
+            rm -rf __sapper__
+            tar zxvf build.tar.gz
+            npm run pm2:delete
+            npm run pm2
