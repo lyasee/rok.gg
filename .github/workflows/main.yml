@@ -28,7 +28,7 @@ jobs:
           username: ${{ secrets.username }}
           key: ${{ secrets.ssh_key }}
           port: 22
-          target: /home/jenkins/rok.gg/build_temp
+          target: /home/jenkins/rok.gg
           source: "build.tar.gz"
           rm: true
 
