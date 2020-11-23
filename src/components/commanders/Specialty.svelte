@@ -3,9 +3,19 @@
   export let text;
 </script>
 
-<div style="display: flex; padding-right: 4px">
+<style>
+  .specialty-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .specialty-text {
+    font-size: 12px;
+  }
+</style>
+
+<div class="specialty-container">
   <img src={image} alt="" height="24px" />
-  <div style="line-height: 19px;">
-    <span style="font-size: 12px;">{text}</span>
-  </div>
+  <div><span class="specialty-text">{text.replace('유닛', '')}</span></div>
 </div>
